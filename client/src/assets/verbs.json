@@ -1,0 +1,1219 @@
+[{
+        "infinitive": "backen",
+        "pastTense": "backte (buk)",
+        "presentPerfect": "gebacken",
+        "translation": "cuire",
+        "conjugation": "backt"
+    },
+    {
+        "infinitive": "befehlen",
+        "pastTense": "befahl",
+        "presentPerfect": "befohlen",
+        "translation": "commande",
+        "conjugation": "befiehlt"
+    },
+    {
+        "infinitive": "beginnen",
+        "pastTense": "begann",
+        "presentPerfect": "begonnen",
+        "translation": "commencer",
+        "conjugation": "beginnt"
+    },
+    {
+        "infinitive": "beißen",
+        "pastTense": "biss",
+        "presentPerfect": "gebissen",
+        "translation": "mordre",
+        "conjugation": "beißt"
+    },
+    {
+        "infinitive": "bergen",
+        "pastTense": "barg",
+        "presentPerfect": "geborgen",
+        "translation": "sauvetage",
+        "conjugation": "birgt"
+    },
+    {
+        "infinitive": "bersten",
+        "pastTense": "barst",
+        "presentPerfect": "geborsten",
+        "translation": "éclater",
+        "conjugation": "birst"
+    },
+    {
+        "infinitive": "betrügen",
+        "pastTense": "betrog",
+        "presentPerfect": "betrogen",
+        "translation": "Triche",
+        "conjugation": "betrügt"
+    },
+    {
+        "infinitive": "bewegen",
+        "pastTense": "bewog",
+        "presentPerfect": "bewogen",
+        "translation": "bouger",
+        "conjugation": "bewegt"
+    },
+    {
+        "infinitive": "biegen",
+        "pastTense": "bog",
+        "presentPerfect": "gebogen",
+        "translation": "courber",
+        "conjugation": "biegt"
+    },
+    {
+        "infinitive": "bieten",
+        "pastTense": "bot",
+        "presentPerfect": "geboten",
+        "translation": "offre",
+        "conjugation": "bietet"
+    },
+    {
+        "infinitive": "binden",
+        "pastTense": "band",
+        "presentPerfect": "gebunden",
+        "translation": "lier",
+        "conjugation": "bindet"
+    },
+    {
+        "infinitive": "bitten",
+        "pastTense": "bat",
+        "presentPerfect": "gebeten",
+        "translation": "demander",
+        "conjugation": "bittet"
+    },
+    {
+        "infinitive": "blasen",
+        "pastTense": "blies",
+        "presentPerfect": "geblasen",
+        "translation": "souffler",
+        "conjugation": "bläst"
+    },
+    {
+        "infinitive": "bleiben",
+        "pastTense": "blieb",
+        "presentPerfect": "bleiben",
+        "translation": "rester",
+        "conjugation": "bleibt"
+    },
+    {
+        "infinitive": "braten",
+        "pastTense": "briet",
+        "presentPerfect": "gebraten",
+        "translation": "rôtir",
+        "conjugation": "brät"
+    },
+    {
+        "infinitive": "brechen",
+        "pastTense": "brach",
+        "presentPerfect": "gebrochen",
+        "translation": "casser",
+        "conjugation": "bricht"
+    },
+    {
+        "infinitive": "brennen",
+        "pastTense": "brannte",
+        "presentPerfect": "gebrannt",
+        "translation": "brûler",
+        "conjugation": "brennt"
+    },
+    {
+        "infinitive": "bringen",
+        "pastTense": "brachte",
+        "presentPerfect": "gebracht",
+        "translation": "apporter",
+        "conjugation": "bringt"
+    },
+    {
+        "infinitive": "denken",
+        "pastTense": "dachte",
+        "presentPerfect": "gedacht",
+        "translation": "penser",
+        "conjugation": "denkt"
+    },
+    {
+        "infinitive": "dingen",
+        "pastTense": "dang",
+        "presentPerfect": "gedungen",
+        "translation": "louer",
+        "conjugation": "dingt"
+    },
+    {
+        "infinitive": "dreschen",
+        "pastTense": "drosch",
+        "presentPerfect": "gedroschen",
+        "translation": "battre",
+        "conjugation": "drischt"
+    },
+    {
+        "infinitive": "dringen",
+        "pastTense": "drang",
+        "presentPerfect": "gedrungen",
+        "translation": "pénétrer",
+        "conjugation": "dringt"
+    },
+    {
+        "infinitive": "empfangen",
+        "pastTense": "empfing",
+        "presentPerfect": "empfangen",
+        "translation": "recevoir",
+        "conjugation": "empfängt"
+    },
+    {
+        "infinitive": "empfehlen",
+        "pastTense": "empfahl",
+        "presentPerfect": "empfohlen",
+        "translation": "Recommander",
+        "conjugation": "empfiehlt"
+    },
+    {
+        "infinitive": "empfinden",
+        "pastTense": "empfand",
+        "presentPerfect": "empfunden",
+        "translation": "sentir",
+        "conjugation": "empfindet"
+    },
+    {
+        "infinitive": "erbleichen",
+        "pastTense": "erbleichte (erblich)",
+        "presentPerfect": "erbleichte (erblichen)",
+        "translation": "blanchir",
+        "conjugation": "erbleicht"
+    },
+    {
+        "infinitive": "erlöschen",
+        "pastTense": "erlosch",
+        "presentPerfect": "erloschen",
+        "translation": "expirer",
+        "conjugation": "erlischt"
+    },
+    {
+        "infinitive": "erschrecken",
+        "pastTense": "erschrak",
+        "presentPerfect": "erschrocken",
+        "translation": "effrayer",
+        "conjugation": "erschrickt"
+    },
+    {
+        "infinitive": "erwägen",
+        "pastTense": "erwog",
+        "presentPerfect": "erwogen",
+        "translation": "considérer",
+        "conjugation": "erwägt"
+    },
+    {
+        "infinitive": "essen",
+        "pastTense": "aß",
+        "presentPerfect": "gegessen",
+        "translation": "manger",
+        "conjugation": "isst"
+    },
+    {
+        "infinitive": "fahren",
+        "pastTense": "fuhr",
+        "presentPerfect": "gefahren",
+        "translation": "conduire",
+        "conjugation": "fährt"
+    },
+    {
+        "infinitive": "fallen",
+        "pastTense": "fiel",
+        "presentPerfect": "gefallen",
+        "translation": "tomber",
+        "conjugation": "fällt"
+    },
+    {
+        "infinitive": "fangen",
+        "pastTense": "fing",
+        "presentPerfect": "gefangen",
+        "translation": "catch",
+        "conjugation": "fängt"
+    },
+    {
+        "infinitive": "fechten",
+        "pastTense": "focht",
+        "presentPerfect": "gefochten",
+        "translation": "escrime",
+        "conjugation": "ficht"
+    },
+    {
+        "infinitive": "finden",
+        "pastTense": "fand",
+        "presentPerfect": "gefunden",
+        "translation": "Trouver",
+        "conjugation": "findet"
+    },
+    {
+        "infinitive": "flechten",
+        "pastTense": "flocht",
+        "presentPerfect": "geflochten",
+        "translation": "tresser",
+        "conjugation": "flicht"
+    },
+    {
+        "infinitive": "fliegen",
+        "pastTense": "flog",
+        "presentPerfect": "geflogen",
+        "translation": "mouche",
+        "conjugation": "fliegt"
+    },
+    {
+        "infinitive": "fliehen",
+        "pastTense": "floh",
+        "presentPerfect": "geflohen",
+        "translation": "fuir",
+        "conjugation": "flieht"
+    },
+    {
+        "infinitive": "fließen",
+        "pastTense": "floss",
+        "presentPerfect": "geflossen",
+        "translation": "couler",
+        "conjugation": "fließt"
+    },
+    {
+        "infinitive": "fressen",
+        "pastTense": "fraß",
+        "presentPerfect": "gefressen",
+        "translation": "manger",
+        "conjugation": "frisst"
+    },
+    {
+        "infinitive": "frieren",
+        "pastTense": "fror",
+        "presentPerfect": "gefroren",
+        "translation": "geler",
+        "conjugation": "friert"
+    },
+    {
+        "infinitive": "gären",
+        "pastTense": "gor",
+        "presentPerfect": "gegoren",
+        "translation": "fermenter",
+        "conjugation": "gärt"
+    },
+    {
+        "infinitive": "gebären",
+        "pastTense": "gebar",
+        "presentPerfect": "geboren",
+        "translation": "accoucher",
+        "conjugation": "gebärt"
+    },
+    {
+        "infinitive": "geben",
+        "pastTense": "gab",
+        "presentPerfect": "gegeben",
+        "translation": "Donner",
+        "conjugation": "gibt"
+    },
+    {
+        "infinitive": "gedeihen",
+        "pastTense": "gedieh",
+        "presentPerfect": "gediehen",
+        "translation": "prospérer",
+        "conjugation": "gedeiht"
+    },
+    {
+        "infinitive": "gehen",
+        "pastTense": "ging",
+        "presentPerfect": "gegangen",
+        "translation": "aller",
+        "conjugation": "geht"
+    },
+    {
+        "infinitive": "gelingen",
+        "pastTense": "gelang",
+        "presentPerfect": "gelungen",
+        "translation": "réussir",
+        "conjugation": "gelingt"
+    },
+    {
+        "infinitive": "gelten",
+        "pastTense": "galt",
+        "presentPerfect": "gegolten",
+        "translation": "être valide",
+        "conjugation": "gilt"
+    },
+    {
+        "infinitive": "genesen",
+        "pastTense": "genas",
+        "presentPerfect": "genesen",
+        "translation": "guérir",
+        "conjugation": "genest"
+    },
+    {
+        "infinitive": "genießen",
+        "pastTense": "genoss",
+        "presentPerfect": "genossen",
+        "translation": "jouir",
+        "conjugation": "genießt"
+    },
+    {
+        "infinitive": "geschehen",
+        "pastTense": "geschah",
+        "presentPerfect": "geschehen",
+        "translation": "arriver",
+        "conjugation": "geschieht"
+    },
+    {
+        "infinitive": "gewinnen",
+        "pastTense": "gewann",
+        "presentPerfect": "gewonnen",
+        "translation": "gagner",
+        "conjugation": "gewinnt"
+    },
+    {
+        "infinitive": "gießen",
+        "pastTense": "goss",
+        "presentPerfect": "gegossen",
+        "translation": "verser",
+        "conjugation": "gießt"
+    },
+    {
+        "infinitive": "gleichen",
+        "pastTense": "glich",
+        "presentPerfect": "geglichen",
+        "translation": "ressembler",
+        "conjugation": "gleicht"
+    },
+    {
+        "infinitive": "gleiten",
+        "pastTense": "glitt",
+        "presentPerfect": "geglitten",
+        "translation": "glisser",
+        "conjugation": "gleitet"
+    },
+    {
+        "infinitive": "glimmen",
+        "pastTense": "glomm",
+        "presentPerfect": "geglommen",
+        "translation": "lueur",
+        "conjugation": "glimmt"
+    },
+    {
+        "infinitive": "graben",
+        "pastTense": "grub",
+        "presentPerfect": "gegraben",
+        "translation": "creuser",
+        "conjugation": "gräbt"
+    },
+    {
+        "infinitive": "greifen",
+        "pastTense": "griff",
+        "presentPerfect": "gegriffen",
+        "translation": "saisir",
+        "conjugation": "greift"
+    },
+    {
+        "infinitive": "halten",
+        "pastTense": "hielt",
+        "presentPerfect": "gehalten",
+        "translation": "tenir",
+        "conjugation": "hält"
+    },
+    {
+        "infinitive": "hängen",
+        "pastTense": "hing",
+        "presentPerfect": "gehangen",
+        "translation": "pendre",
+        "conjugation": "hängt"
+    },
+    {
+        "infinitive": "hauen",
+        "pastTense": "haute (hieb)",
+        "presentPerfect": "gehauen",
+        "translation": "couper",
+        "conjugation": "haut"
+    },
+    {
+        "infinitive": "heben",
+        "pastTense": "hob",
+        "presentPerfect": "gehoben",
+        "translation": "lever",
+        "conjugation": "hebt"
+    },
+    {
+        "infinitive": "heißen",
+        "pastTense": "hieß",
+        "presentPerfect": "geheißen",
+        "translation": "s’appeler",
+        "conjugation": "heißt"
+    },
+    {
+        "infinitive": "helfen",
+        "pastTense": "half",
+        "presentPerfect": "hat geholfen",
+        "translation": "Aide",
+        "conjugation": "hilft"
+    },
+    {
+        "infinitive": "kennen",
+        "pastTense": "kannte",
+        "presentPerfect": "gekannt",
+        "translation": "savoir",
+        "conjugation": "kennt"
+    },
+    {
+        "infinitive": "klimmen",
+        "pastTense": "klomm",
+        "presentPerfect": "geklommen",
+        "translation": "grimper",
+        "conjugation": "klimmt"
+    },
+    {
+        "infinitive": "klingen",
+        "pastTense": "klang",
+        "presentPerfect": "geklungen",
+        "translation": "son",
+        "conjugation": "klingt"
+    },
+    {
+        "infinitive": "kneifen",
+        "pastTense": "kniff",
+        "presentPerfect": "gekniffen",
+        "translation": "pincer",
+        "conjugation": "kneift"
+    },
+    {
+        "infinitive": "kommen",
+        "pastTense": "kam",
+        "presentPerfect": "gekommen",
+        "translation": "venir",
+        "conjugation": "kommt"
+    },
+    {
+        "infinitive": "kriechen",
+        "pastTense": "kroch",
+        "presentPerfect": "gekrochen",
+        "translation": "ramper",
+        "conjugation": "kriecht"
+    },
+    {
+        "infinitive": "laden",
+        "pastTense": "lud",
+        "presentPerfect": "geladen",
+        "translation": "boutique",
+        "conjugation": "lädt"
+    },
+    {
+        "infinitive": "lassen",
+        "pastTense": "ließ",
+        "presentPerfect": "gelassen",
+        "translation": "laisser",
+        "conjugation": "läßt"
+    },
+    {
+        "infinitive": "laufen",
+        "pastTense": "lief",
+        "presentPerfect": "gelaufen",
+        "translation": "Courir",
+        "conjugation": "läuft"
+    },
+    {
+        "infinitive": "leiden",
+        "pastTense": "litt",
+        "presentPerfect": "gelitten",
+        "translation": "souffrir",
+        "conjugation": "leidet"
+    },
+    {
+        "infinitive": "leihen",
+        "pastTense": "lieh",
+        "presentPerfect": "geliehen",
+        "translation": "prêter",
+        "conjugation": "leiht"
+    },
+    {
+        "infinitive": "lesen",
+        "pastTense": "las",
+        "presentPerfect": "gelesen",
+        "translation": "lire",
+        "conjugation": "liest"
+    },
+    {
+        "infinitive": "liegen",
+        "pastTense": "lag",
+        "presentPerfect": "gelegen",
+        "translation": "mensonge",
+        "conjugation": "liegt"
+    },
+    {
+        "infinitive": "lügen",
+        "pastTense": "log",
+        "presentPerfect": "gelogen",
+        "translation": "mensonge",
+        "conjugation": "lügt"
+    },
+    {
+        "infinitive": "mahlen",
+        "pastTense": "mahlte",
+        "presentPerfect": "gemahlen",
+        "translation": "Moudre",
+        "conjugation": "mahlt"
+    },
+    {
+        "infinitive": "meiden",
+        "pastTense": "mied",
+        "presentPerfect": "gemieden",
+        "translation": "éviter",
+        "conjugation": "meidet"
+    },
+    {
+        "infinitive": "melken",
+        "pastTense": "melkte (molk)",
+        "presentPerfect": "gemelkt (gemolken)",
+        "translation": "lait",
+        "conjugation": "milkt"
+    },
+    {
+        "infinitive": "messen",
+        "pastTense": "maß",
+        "presentPerfect": "gemessen",
+        "translation": "mesurer",
+        "conjugation": "misst"
+    },
+    {
+        "infinitive": "misslingen",
+        "pastTense": "misslang",
+        "presentPerfect": "misslungen",
+        "translation": "échouer",
+        "conjugation": "misslingt"
+    },
+    {
+        "infinitive": "nehmen",
+        "pastTense": "nahm",
+        "presentPerfect": "genommen",
+        "translation": "prendre",
+        "conjugation": "nimmt"
+    },
+    {
+        "infinitive": "nennen",
+        "pastTense": "nannte",
+        "presentPerfect": "genannt",
+        "translation": "nom",
+        "conjugation": "nennt"
+    },
+    {
+        "infinitive": "pfeifen",
+        "pastTense": "pfiff",
+        "presentPerfect": "gepfiffen",
+        "translation": "siffler",
+        "conjugation": "pfeift"
+    },
+    {
+        "infinitive": "preisen",
+        "pastTense": "pries",
+        "presentPerfect": "gepriesen",
+        "translation": "louange",
+        "conjugation": "preist"
+    },
+    {
+        "infinitive": "quellen",
+        "pastTense": "quoll",
+        "presentPerfect": "gequollen",
+        "translation": "Sources",
+        "conjugation": "quillt"
+    },
+    {
+        "infinitive": "raten",
+        "pastTense": "riet",
+        "presentPerfect": "geraten",
+        "translation": "deviner",
+        "conjugation": "rät"
+    },
+    {
+        "infinitive": "reiben",
+        "pastTense": "rieb",
+        "presentPerfect": "gerieben",
+        "translation": "frotter",
+        "conjugation": "reibt"
+    },
+    {
+        "infinitive": "reißen",
+        "pastTense": "riss",
+        "presentPerfect": "gerissen",
+        "translation": "larme",
+        "conjugation": "reißt"
+    },
+    {
+        "infinitive": "reiten",
+        "pastTense": "ritt",
+        "presentPerfect": "geritten",
+        "translation": "chevaucher",
+        "conjugation": "reitet"
+    },
+    {
+        "infinitive": "rennen",
+        "pastTense": "rannte",
+        "presentPerfect": "gerannt",
+        "translation": "Courir",
+        "conjugation": "rennt"
+    },
+    {
+        "infinitive": "riechen",
+        "pastTense": "roch",
+        "presentPerfect": "gerochen",
+        "translation": "odeur",
+        "conjugation": "riecht"
+    },
+    {
+        "infinitive": "ringen",
+        "pastTense": "rang",
+        "presentPerfect": "gerungen",
+        "translation": "lutter",
+        "conjugation": "ringt"
+    },
+    {
+        "infinitive": "rinnen",
+        "pastTense": "rann",
+        "presentPerfect": "geronnen",
+        "translation": "couler",
+        "conjugation": "rinnt"
+    },
+    {
+        "infinitive": "rufen",
+        "pastTense": "rief",
+        "presentPerfect": "gerufen",
+        "translation": "appeler",
+        "conjugation": "ruft"
+    },
+    {
+        "infinitive": "salzen",
+        "pastTense": "salzte",
+        "presentPerfect": "gesalzen (gesalzt)",
+        "translation": "sel",
+        "conjugation": "salzt"
+    },
+    {
+        "infinitive": "saufen",
+        "pastTense": "soff",
+        "presentPerfect": "gesoffen",
+        "translation": "bibine",
+        "conjugation": "säuft"
+    },
+    {
+        "infinitive": "saugen",
+        "pastTense": "saugte (sog)",
+        "presentPerfect": "gesaugt (gesogen)",
+        "translation": "sucer",
+        "conjugation": "saugt"
+    },
+    {
+        "infinitive": "schaffen",
+        "pastTense": "schuf",
+        "presentPerfect": "geschaffen",
+        "translation": "créer",
+        "conjugation": "schafft"
+    },
+    {
+        "infinitive": "scheiden",
+        "pastTense": "schied",
+        "presentPerfect": "geschieden",
+        "translation": "séparer",
+        "conjugation": "scheidet"
+    },
+    {
+        "infinitive": "scheinen",
+        "pastTense": "schien",
+        "presentPerfect": "geschienen",
+        "translation": "sembler",
+        "conjugation": "scheint"
+    },
+    {
+        "infinitive": "scheißen",
+        "pastTense": "schiss",
+        "presentPerfect": "geschissen",
+        "translation": "merde",
+        "conjugation": "scheißt"
+    },
+    {
+        "infinitive": "schelten",
+        "pastTense": "schalt",
+        "presentPerfect": "gescholten",
+        "translation": "gronder",
+        "conjugation": "schilt"
+    },
+    {
+        "infinitive": "scheren",
+        "pastTense": "schor",
+        "presentPerfect": "geschoren",
+        "translation": "tondre",
+        "conjugation": "schert"
+    },
+    {
+        "infinitive": "schieben",
+        "pastTense": "schob",
+        "presentPerfect": "geschoben",
+        "translation": "pousser",
+        "conjugation": "schiebt"
+    },
+    {
+        "infinitive": "schießen",
+        "pastTense": "schoss",
+        "presentPerfect": "geschossen",
+        "translation": "tirer",
+        "conjugation": "schießt"
+    },
+    {
+        "infinitive": "schlafen",
+        "pastTense": "schlief",
+        "presentPerfect": "geschlafen",
+        "translation": "dormir",
+        "conjugation": "schläft"
+    },
+    {
+        "infinitive": "schlagen",
+        "pastTense": "schlug",
+        "presentPerfect": "geschlagen",
+        "translation": "battre",
+        "conjugation": "schlägt"
+    },
+    {
+        "infinitive": "schleichen",
+        "pastTense": "schlich",
+        "presentPerfect": "geschlichen",
+        "translation": "faucher",
+        "conjugation": "schleicht"
+    },
+    {
+        "infinitive": "schleifen",
+        "pastTense": "schliff",
+        "presentPerfect": "geschliffen",
+        "translation": "Moudre",
+        "conjugation": "schleift"
+    },
+    {
+        "infinitive": "schließen",
+        "pastTense": "schloss",
+        "presentPerfect": "geschlossen",
+        "translation": "fermer",
+        "conjugation": "schließt"
+    },
+    {
+        "infinitive": "schlingen",
+        "pastTense": "schlang",
+        "presentPerfect": "geschlungen",
+        "translation": "boulon",
+        "conjugation": "schlingt"
+    },
+    {
+        "infinitive": "schmeißen",
+        "pastTense": "schmiss",
+        "presentPerfect": "geschmissen",
+        "translation": "jeter",
+        "conjugation": "schmeißt"
+    },
+    {
+        "infinitive": "schmelzen",
+        "pastTense": "schmolz",
+        "presentPerfect": "geschmolzen",
+        "translation": "fondre",
+        "conjugation": "schmilzt"
+    },
+    {
+        "infinitive": "schneiden",
+        "pastTense": "schnitt",
+        "presentPerfect": "geschnitten",
+        "translation": "couper",
+        "conjugation": "schneidet"
+    },
+    {
+        "infinitive": "schreiben",
+        "pastTense": "schrieb",
+        "presentPerfect": "geschrieben",
+        "translation": "Écrire",
+        "conjugation": "schreibt"
+    },
+    {
+        "infinitive": "schreien",
+        "pastTense": "schrie",
+        "presentPerfect": "geschrie(e)n",
+        "translation": "crier",
+        "conjugation": "schreit"
+    },
+    {
+        "infinitive": "schreiten",
+        "pastTense": "schritt",
+        "presentPerfect": "geschritten",
+        "translation": "pas",
+        "conjugation": "schreitet"
+    },
+    {
+        "infinitive": "schweigen",
+        "pastTense": "schwieg",
+        "presentPerfect": "geschwiegen",
+        "translation": "se taire",
+        "conjugation": "schweigt"
+    },
+    {
+        "infinitive": "schwellen",
+        "pastTense": "schwoll",
+        "presentPerfect": "geschwollen",
+        "translation": "enfler",
+        "conjugation": "schwillt"
+    },
+    {
+        "infinitive": "schwimmen",
+        "pastTense": "schwamm",
+        "presentPerfect": "geschwommen",
+        "translation": "nager",
+        "conjugation": "schwimmt"
+    },
+    {
+        "infinitive": "schwingen",
+        "pastTense": "schwang",
+        "presentPerfect": "geschwungen",
+        "translation": "Balançoire",
+        "conjugation": "schwingt"
+    },
+    {
+        "infinitive": "schwören",
+        "pastTense": "schwor",
+        "presentPerfect": "geschworen",
+        "translation": "jurer",
+        "conjugation": "schwört"
+    },
+    {
+        "infinitive": "sehen",
+        "pastTense": "sah",
+        "presentPerfect": "gesehen",
+        "translation": "voir",
+        "conjugation": "sieht"
+    },
+    {
+        "infinitive": "senden",
+        "pastTense": "sandte",
+        "presentPerfect": "gesandt",
+        "translation": "Envoyer",
+        "conjugation": "sendet"
+    },
+    {
+        "infinitive": "singen",
+        "pastTense": "sang",
+        "presentPerfect": "gesungen",
+        "translation": "chanter",
+        "conjugation": "singt"
+    },
+    {
+        "infinitive": "sinken",
+        "pastTense": "sank",
+        "presentPerfect": "gesunken",
+        "translation": "couler",
+        "conjugation": "sinkt"
+    },
+    {
+        "infinitive": "sinnen",
+        "pastTense": "sann",
+        "presentPerfect": "gesonnen",
+        "translation": "réfléchir",
+        "conjugation": "sinnt"
+    },
+    {
+        "infinitive": "sitzen",
+        "pastTense": "saß",
+        "presentPerfect": "gesessen",
+        "translation": "s’asseoir",
+        "conjugation": "sitzt"
+    },
+    {
+        "infinitive": "spalten",
+        "pastTense": "spaltete",
+        "presentPerfect": "gespalten",
+        "translation": "fendre",
+        "conjugation": "spaltet"
+    },
+    {
+        "infinitive": "speien",
+        "pastTense": "spie",
+        "presentPerfect": "gespie(e)n",
+        "translation": "cracher",
+        "conjugation": "speist"
+    },
+    {
+        "infinitive": "spinnen",
+        "pastTense": "spann",
+        "presentPerfect": "gesponnen",
+        "translation": "filer",
+        "conjugation": "spinnt"
+    },
+    {
+        "infinitive": "sprechen",
+        "pastTense": "sprach",
+        "presentPerfect": "gesprochen",
+        "translation": "parler",
+        "conjugation": "spricht"
+    },
+    {
+        "infinitive": "sprießen",
+        "pastTense": "spross",
+        "presentPerfect": "gesprossen",
+        "translation": "germer",
+        "conjugation": "sprießt"
+    },
+    {
+        "infinitive": "springen",
+        "pastTense": "sprang",
+        "presentPerfect": "gesprungen",
+        "translation": "sauter",
+        "conjugation": "springt"
+    },
+    {
+        "infinitive": "stechen",
+        "pastTense": "stach",
+        "presentPerfect": "gestochen",
+        "translation": "poignarder",
+        "conjugation": "sticht"
+    },
+    {
+        "infinitive": "stehen",
+        "pastTense": "stand",
+        "presentPerfect": "gestanden",
+        "translation": "Debout",
+        "conjugation": "steht"
+    },
+    {
+        "infinitive": "stehlen",
+        "pastTense": "stahl",
+        "presentPerfect": "gestohlen",
+        "translation": "voler",
+        "conjugation": "stiehlt"
+    },
+    {
+        "infinitive": "steigen",
+        "pastTense": "stieg",
+        "presentPerfect": "gestiegen",
+        "translation": "grimper",
+        "conjugation": "steigt"
+    },
+    {
+        "infinitive": "sterben",
+        "pastTense": "starb",
+        "presentPerfect": "gestorben",
+        "translation": "mourir",
+        "conjugation": "stirbt"
+    },
+    {
+        "infinitive": "stieben",
+        "pastTense": "stob",
+        "presentPerfect": "gestoben",
+        "translation": "pulvériser",
+        "conjugation": "stiebt"
+    },
+    {
+        "infinitive": "stinken",
+        "pastTense": "stank",
+        "presentPerfect": "gestunken",
+        "translation": "puer",
+        "conjugation": "stinkt"
+    },
+    {
+        "infinitive": "stoßen",
+        "pastTense": "stieß",
+        "presentPerfect": "gestoßen",
+        "translation": "pousser",
+        "conjugation": "stößt"
+    },
+    {
+        "infinitive": "streichen",
+        "pastTense": "strich",
+        "presentPerfect": "gestrichen",
+        "translation": "supprimer",
+        "conjugation": "streicht"
+    },
+    {
+        "infinitive": "streiten",
+        "pastTense": "stritt",
+        "presentPerfect": "gestritten",
+        "translation": "se disputer",
+        "conjugation": "streitet"
+    },
+    {
+        "infinitive": "tragen",
+        "pastTense": "trug",
+        "presentPerfect": "getragen",
+        "translation": "porter",
+        "conjugation": "trägt"
+    },
+    {
+        "infinitive": "treffen",
+        "pastTense": "traf",
+        "presentPerfect": "getroffen",
+        "translation": "réunion",
+        "conjugation": "trifft"
+    },
+    {
+        "infinitive": "treiben",
+        "pastTense": "trieb",
+        "presentPerfect": "getrieben",
+        "translation": "conduire",
+        "conjugation": "treibt"
+    },
+    {
+        "infinitive": "treten",
+        "pastTense": "trat",
+        "presentPerfect": "getreten",
+        "translation": "coup de pied",
+        "conjugation": "tritt"
+    },
+    {
+        "infinitive": "trinken",
+        "pastTense": "trank",
+        "presentPerfect": "getrunken",
+        "translation": "boire",
+        "conjugation": "trinkt"
+    },
+    {
+        "infinitive": "trügen",
+        "pastTense": "trug",
+        "presentPerfect": "getrogen",
+        "translation": "tromper",
+        "conjugation": "trügt"
+    },
+    {
+        "infinitive": "tun",
+        "pastTense": "tat",
+        "presentPerfect": "getan",
+        "translation": "faire",
+        "conjugation": "tut"
+    },
+    {
+        "infinitive": "verbleichen",
+        "pastTense": "verblich",
+        "presentPerfect": "verblichen",
+        "translation": "se faner",
+        "conjugation": "verbleicht"
+    },
+    {
+        "infinitive": "verderben",
+        "pastTense": "verdarb",
+        "presentPerfect": "verdorben",
+        "translation": "gâter",
+        "conjugation": "verdirbt"
+    },
+    {
+        "infinitive": "verdrießen",
+        "pastTense": "verdross",
+        "presentPerfect": "verdrossen",
+        "translation": "ennuyer",
+        "conjugation": "verdrießt"
+    },
+    {
+        "infinitive": "vergessen",
+        "pastTense": "vergaß",
+        "presentPerfect": "vergessen",
+        "translation": "oublier",
+        "conjugation": "vergißt"
+    },
+    {
+        "infinitive": "verlieren",
+        "pastTense": "verlor",
+        "presentPerfect": "verloren",
+        "translation": "perdre",
+        "conjugation": "verliert"
+    },
+    {
+        "infinitive": "verschwinden",
+        "pastTense": "verschwand",
+        "presentPerfect": "verschwunden",
+        "translation": "disparaître",
+        "conjugation": "verschwindet"
+    },
+    {
+        "infinitive": "verzeihen",
+        "pastTense": "verzieh",
+        "presentPerfect": "verziehen",
+        "translation": "pardonner",
+        "conjugation": "verzeiht"
+    },
+    {
+        "infinitive": "wachsen",
+        "pastTense": "wuchs",
+        "presentPerfect": "gewachsen",
+        "translation": "grandir",
+        "conjugation": "wächst"
+    },
+    {
+        "infinitive": "waschen",
+        "pastTense": "wusch",
+        "presentPerfect": "gewaschen",
+        "translation": "laver",
+        "conjugation": "wäscht"
+    },
+    {
+        "infinitive": "weichen",
+        "pastTense": "wich",
+        "presentPerfect": "gewichen",
+        "translation": "rendement",
+        "conjugation": "weicht"
+    },
+    {
+        "infinitive": "weisen",
+        "pastTense": "wies",
+        "presentPerfect": "gewiesen",
+        "translation": "montrer",
+        "conjugation": "weist"
+    },
+    {
+        "infinitive": "wenden",
+        "pastTense": "wandte",
+        "presentPerfect": "gewandt",
+        "translation": "tourner",
+        "conjugation": "wendet"
+    },
+    {
+        "infinitive": "werben",
+        "pastTense": "warb",
+        "presentPerfect": "geworben",
+        "translation": "annoncer",
+        "conjugation": "wirbt"
+    },
+    {
+        "infinitive": "werfen",
+        "pastTense": "warf",
+        "presentPerfect": "geworfen",
+        "translation": "jeter",
+        "conjugation": "wirft"
+    },
+    {
+        "infinitive": "wiegen",
+        "pastTense": "wog",
+        "presentPerfect": "gewogen",
+        "translation": "peser",
+        "conjugation": "wiegt"
+    },
+    {
+        "infinitive": "winden",
+        "pastTense": "wand",
+        "presentPerfect": "gewunden",
+        "translation": "vent",
+        "conjugation": "windet"
+    },
+    {
+        "infinitive": "wissen",
+        "pastTense": "wusste",
+        "presentPerfect": "gewusst",
+        "translation": "savoir",
+        "conjugation": "weiß"
+    },
+    {
+        "infinitive": "wringen",
+        "pastTense": "wrang",
+        "presentPerfect": "gewrungen",
+        "translation": "tordre",
+        "conjugation": "wringt"
+    },
+    {
+        "infinitive": "ziehen",
+        "pastTense": "zog",
+        "presentPerfect": "gezogen",
+        "translation": "tirer",
+        "conjugation": "zieht"
+    },
+    {
+        "infinitive": "zwingen",
+        "pastTense": "zwang",
+        "presentPerfect": "gezwungen",
+        "translation": "contraindre",
+        "conjugation": "zwingt"
+    }
+]

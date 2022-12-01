@@ -91,7 +91,7 @@ function App() {
             <pre>
                 {verbData && isTranslation
                     ? JSON.stringify(verbData)
-                    : "NOTHING TO SHOW"}
+                    : "NOTHING TO SHOW..."}
             </pre>
         </div>
     );

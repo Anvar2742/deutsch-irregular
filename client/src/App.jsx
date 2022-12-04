@@ -1,98 +1,53 @@
-import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
-import { irregular } from "./assets/irregular";
-import * as german from "german-verbs";
-import conjugation from "german-verbs-dict/dist/verbs.json";
-import axios from "axios";
-import { irrTest } from "./assets/irrTest";
+import Cards from "./pages/Cards";
+import irregular from "./assets/irregular.json";
+import { useState } from "react";
+import { useEffect } from "react";
 import verbs from "./assets/verbs.json";
 
 function App() {
-    const [isTranslation, setIsTranslation] = useState(false);
-    const [verbData, setVerbData] = useState(localStorage.getItem("data") ? localStorage.getItem("data") : []);
+    const [wordsSeparated, setWordsSeparated] = useState(null);
 
-    const getTranslation = async (verb) => {
-        try {
-            const res = await axios.get("http://localhost:8000/translation", {
-                params: { verb },
-            });
+    // useEffect(() => {
+    //     setWordsSeparated(
+    //         irregular.map((item) => {
+    //             let conjug = 404;
+    //             verbs.forEach((el) => {
+    //                 if (item.infinitive === el.infinitive) {
+    //                     conjug = el.conjugation;
+    //                 }
+    //             });
 
-            return res.data;
-        } catch (error) {
-            return error;
-        }
-    };
+    //             return {
+    //                 ...item,
+    //                 conjugation: conjug,
+    //             };
 
-    const getVerbForms = async (verb) => {
-        const data = await getTranslation(verb);
-        return data;
-    };
+    //             // return {
+    //             //     ...item,
+    //             //     infinitive:
+    //             //         item.infinitive.indexOf("(") === -1
+    //             //             ? item.infinitive
+    //             //             : item.infinitive.slice(
+    //             //                   0,
+    //             //                   item.infinitive.indexOf("(")
+    //             //               ),
+    //             // };
+    //         })
+    //     );
+    // }, []);
 
-    useEffect(() => {
-        if (isTranslation) {
-            const getAllData = async () => {
-                const copyVerbData = { ...irregular};
-                for (const key in copyVerbData) {
-                    if (Object.hasOwnProperty.call(copyVerbData, key)) {
-                        const data = await getVerbForms(key);
-                        const trans = await data[0].text;
-
-                        setVerbData((prevData) => {
-                            for (const key_2 in irregular) {
-                                if (Object.hasOwnProperty.call(irregular, key)) {
-                                    if (key_2 === key) {
-                                        let keyConjugation = 404;
-
-                                        if (conjugation[key]["PRÄ"] !== null && conjugation[key]["PRÄ"] !== undefined) {
-                                            keyConjugation = conjugation[key]["PRÄ"]["S"]["3"];
-                                        }
-
-                                        return [
-                                            ...prevData,
-                                            {
-                                                infinitive: key,
-                                                pastTense:
-                                                    irregular[key].pastTense,
-                                                presentPerfect:
-                                                    irregular[key].presentPerfect,
-                                                translation: trans,
-                                                conjugation: keyConjugation,
-                                            },
-                                        ];
-                                    }
-                                }
-                            }
-                        });
-                    }
-                }
-
-                return copyVerbData;
-            };
-
-            getAllData();
-        }
-    }, [isTranslation]);
-
-    useEffect(() => {
-        if (isTranslation) {
-            console.log(verbData);
-            localStorage.setItem("data", verbData);
-        }
-    }, [verbData]);
-
-    function translate() {
-        setIsTranslation(true);
-    }
+    // useEffect(() => {
+    //     if (wordsSeparated) {
+    //         console.log(wordsSeparated);
+    //     }
+    // }, [wordsSeparated]);
 
     return (
-        <div className="App">
-            <button onClick={translate}>GO!</button>
-            <pre>
-                {verbData && isTranslation
-                    ? JSON.stringify(verbData)
-                    : "NOTHING TO SHOW..."}
-            </pre>
+        <div className="bg-gray-50 h-[100vh]">
+            <div className="max-w-md mx-auto bg-gray-300">
+                <Cards />
+            </div>
         </div>
     );
 }

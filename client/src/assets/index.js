@@ -1,62 +1,38 @@
-export const getTranslation = async (verb) => {
-    try {
-        const res = await axios.get("http://localhost:8000/translation", {
-            params: {
-                verb,
-            },
-        });
-
-        return res.data;
-    } catch (error) {
-        return error;
+export const mixArray = (arr) => {
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
+
+    return arr;
+};
+export const getVerbs = (verbs, num) => {
+    const randomIndex = Math.floor(Math.random() * verbs.length - 4);
+    const slicedVerbs = verbs.slice(randomIndex, randomIndex + num);
+    const mixedArr = mixArray(slicedVerbs);
+    const result = mixedArr.map((item) => ({
+        ...item,
+        isActive: false,
+        isCorrect: false,
+    }));
+
+    return result;
 };
 
-export const getVerbForms = async (verb) => {
-    const data = await getTranslation(verb);
-    return data;
-};
-
-export const getAllData = async () => {
-    const copyVerbData = {
-        ...irregular,
-    };
-    for (const key in copyVerbData) {
-        if (Object.hasOwnProperty.call(copyVerbData, key)) {
-            const data = await getVerbForms(key);
-            const trans = await data[0].text;
-
-            setVerbData((prevData) => {
-                for (const key_2 in irregular) {
-                    if (Object.hasOwnProperty.call(irregular, key)) {
-                        if (key_2 === key) {
-                            let keyConjugation = 404;
-
-                            if (
-                                conjugation[key]["PRÄ"] !== null &&
-                                conjugation[key]["PRÄ"] !== undefined
-                            ) {
-                                keyConjugation =
-                                    conjugation[key]["PRÄ"]["S"]["3"];
-                            }
-
-                            return [
-                                ...prevData,
-                                {
-                                    infinitive: key,
-                                    pastTense: irregular[key].pastTense,
-                                    presentPerfect:
-                                        irregular[key].presentPerfect,
-                                    translation: trans,
-                                    conjugation: keyConjugation,
-                                },
-                            ];
-                        }
-                    }
-                }
-            });
+export const getWords = async (WORDS_URL) => {
+    const words = await fetch(WORDS_URL).then((r) => r.text());
+    let wordsArr = words.split("\n").map((item) => item.split(" "));
+    wordsArr = wordsArr.map((word) => {
+        if (word.length > 3) {
+            const firstHalf = word.slice(0, 2);
+            const secondHalf = word.slice(3, word.length);
+            const translation = word[2] + "~" + secondHalf.join("~");
+            return [...firstHalf, translation];
+        } else {
+            return word;
         }
-    }
-
-    return copyVerbData;
+    });
+    setWordsSeparated(wordsArr);
 };

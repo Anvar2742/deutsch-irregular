@@ -20,19 +20,3 @@ export const getVerbs = (verbs, num) => {
 
     return result;
 };
-
-export const getWords = async (WORDS_URL) => {
-    const words = await fetch(WORDS_URL).then((r) => r.text());
-    let wordsArr = words.split("\n").map((item) => item.split(" "));
-    wordsArr = wordsArr.map((word) => {
-        if (word.length > 3) {
-            const firstHalf = word.slice(0, 2);
-            const secondHalf = word.slice(3, word.length);
-            const translation = word[2] + "~" + secondHalf.join("~");
-            return [...firstHalf, translation];
-        } else {
-            return word;
-        }
-    });
-    setWordsSeparated(wordsArr);
-};

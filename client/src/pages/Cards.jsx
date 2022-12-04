@@ -24,11 +24,14 @@ const Cards = () => {
         currentVerb.translations.FR,
     ]);
 
+    const [isAnswering, setIsAnswering] = useState(true);
+
     /* Go to the next step for the current verb */
     // Set answer options
     // Set current step
     // Set already answered options
     function nextStep(step) {
+        setIsAnswering(true);
         // if we're approaching to "perfekt" step
         // Set answer options from "perfekt" key
         // else: just regular setAnswerOptions from options from all verbs
@@ -91,6 +94,9 @@ const Cards = () => {
 
     // Check if the answer is correct
     function checkAnswer(answer) {
+        if (!isAnswering) {
+            return;
+        }
         /* This time out is needed to go to the next question about current verb */
         const setNextTimeOut = (answer) => {
             setTimeout(() => {
@@ -119,10 +125,12 @@ const Cards = () => {
                 })
             );
 
-            /* If the answer id matches the currentVerb id then it's the correct answer */
+            /* If the answer "perfekt" matches the currentVerb's first "perfekt" then it's the correct answer */
             // So we can set our timer and go to the next step
             if (answer.perfekt === currentVerb.perfekt[0]) {
                 setNextTimeOut(answer);
+                /* Set isAnswering to false, so people can't randomly highlight verbs even though they're already done with the current step */
+                setIsAnswering(false);
             }
             return;
         }
@@ -146,10 +154,12 @@ const Cards = () => {
                 })
             );
 
-            /* If the answer id matches the currentVerb id then it's the correct answer */
+            /* If the answer "ist_hat" matches the currentVerb "ist_hat" then it's the correct answer */
             // So we can set our timer and go to the next step
             if (answer.ist_hat === currentVerb.ist_hat) {
                 setNextTimeOut(answer);
+                /* Set isAnswering to false, so people can't randomly highlight verbs even though they're already done with the current step */
+                setIsAnswering(false);
             }
             return;
         }
@@ -175,6 +185,8 @@ const Cards = () => {
         // So we can set our timer and go to the next step
         if (answer.id === currentVerb.id) {
             setNextTimeOut(answer);
+            /* Set isAnswering to false, so people can't randomly highlight verbs even though they're already done with the current step */
+            setIsAnswering(false);
         }
     }
 

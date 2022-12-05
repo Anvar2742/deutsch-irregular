@@ -3,6 +3,58 @@ import irregular from "./../assets/irregular.json";
 import { getVerbs, mixArray, mixCorrect, updateAnswerOptions } from "../assets";
 import { useEffect } from "react";
 import { cardsStepsArr, istHatOptions } from "../assets/constants";
+import { memo } from "react";
+
+const Questions = memo((props) => {
+    return (
+        <div className="flex items-center justify-center flex-col border-2 border-black rounded-2xl">
+            <span className="block text-4xl">
+                {props.questionArr ? props.questionArr[0] : ""}
+            </span>
+            <p>
+                {props.questionArr?.map((item, i) => {
+                    if (i > 0) {
+                        return (
+                            <span className="text-base" key={item}>
+                                {item}
+                                {props.questionArr.length > 1 &&
+                                i !== props.questionArr.length - 1
+                                    ? " - "
+                                    : ""}
+                            </span>
+                        );
+                    }
+                })}
+            </p>
+        </div>
+    );
+});
+
+const Answers = memo((props) => {
+    return (
+        <div className="grid auto-rows-auto grid-cols-2 gap-2">
+            {props.answerOptions?.map((item) => (
+                <button
+                    key={
+                        item.id
+                            ? item.id
+                            : item[props.cardsStepsArr[props.currentStep]]
+                    }
+                    className={`text-2xl flex items-center justify-center rounded-2xl shadow-card ${
+                        item.isActive && item.isCorrect
+                            ? "bg-green-500 text-white"
+                            : item.isActive
+                            ? "bg-orange-500 text-white"
+                            : ""
+                    }`}
+                    onClick={() => props.checkAnswer(item)}
+                >
+                    {item[props.cardsStepsArr[props.currentStep]]}
+                </button>
+            ))}
+        </div>
+    );
+});
 
 const Cards = () => {
     // Get n number length array of verbs using getVerbs function. It's mixed.
@@ -33,18 +85,9 @@ const Cards = () => {
     // Set answer options
     // Set current step
     // Set already answered options
-    function nextStep() {
+    const nextStep = () => {
         setIsAnswering(true);
         setCurrentStep((prev) => prev + 1);
-        // Set the forms that we already answered
-        if (currentStep > 0) {
-            setQuestionArr((prevArr) => [
-                ...prevArr,
-                cardsStepsArr[currentStep] === "perfekt"
-                    ? currentVerb[cardsStepsArr[currentStep]][0]
-                    : currentVerb[cardsStepsArr[currentStep]],
-            ]);
-        }
 
         // if we're approaching to "perfekt" step
         // Set answer options from "perfekt" key
@@ -97,10 +140,23 @@ const Cards = () => {
                 });
             });
         }
-    }
+
+        if (currentStep + 1 === cardsStepsArr.length) {
+            return;
+        }
+        // Set the forms that we already answered
+        if (currentStep + 1 > 0) {
+            setQuestionArr((prevArr) => [
+                ...prevArr,
+                cardsStepsArr[currentStep] === "perfekt"
+                    ? currentVerb[cardsStepsArr[currentStep]][0]
+                    : currentVerb[cardsStepsArr[currentStep]],
+            ]);
+        }
+    };
 
     // Check if the answer is correct
-    function checkAnswer(answer) {
+    const checkAnswer = (answer) => {
         if (!isAnswering) {
             return;
         }
@@ -120,7 +176,7 @@ const Cards = () => {
             setAnswerOptions,
             setIsAnswering
         );
-    }
+    };
 
     // Detects if it's the end for the verb
     // if so add up to the index
@@ -152,41 +208,22 @@ const Cards = () => {
         // Initital question
         if (!questionArr || currentStep === 0) {
             setQuestionArr([currentVerb.translations.FR]);
-        } else if (currentVerb === undefined) {
-            console.log("undefined!!!");
         }
     }, [currentVerb]);
 
+    useEffect(() => {
+        // console.log("questionArr");
+    }, [questionArr]);
+
     return (
-        <div className="">
-            <div className="grid auto-rows-auto grid-cols-1 items-center justify-items-center h-[40vh] border-2 border-black">
-                <p>
-                    {questionArr?.map((item) => (
-                        <span className="block text-4xl" key={item}>
-                            {item}
-                        </span>
-                    ))}
-                </p>
-            </div>
-            <div className="grid auto-rows-auto grid-cols-2 h-[40vh]">
-                {answerOptions?.map((item) => (
-                    <button
-                        key={
-                            item.id ? item.id : item[cardsStepsArr[currentStep]]
-                        }
-                        className={`text-2xl ${
-                            item.isActive && item.isCorrect
-                                ? "bg-green-400"
-                                : item.isActive
-                                ? "bg-orange-400"
-                                : ""
-                        }`}
-                        onClick={() => checkAnswer(item)}
-                    >
-                        {item[cardsStepsArr[currentStep]]}
-                    </button>
-                ))}
-            </div>
+        <div className="py-4 px-2 grid grid-rows-2 grid-cols-1 gap-3 h-full">
+            <Questions questionArr={questionArr} />
+            <Answers
+                answerOptions={answerOptions}
+                cardsStepsArr={cardsStepsArr}
+                currentStep={currentStep}
+                checkAnswer={checkAnswer}
+            />
         </div>
     );
 };

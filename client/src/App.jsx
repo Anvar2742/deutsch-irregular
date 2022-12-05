@@ -1,10 +1,14 @@
 import "./App.css";
 import Cards from "./pages/Cards";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link, NavLink, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Verbs from "./pages/Verbs";
 import * as Icon from "react-bootstrap-icons";
 
+/* TO-DO */
+/**
+ * Change to NavLink and just hide non active 
+ */
 const NavBar = () => {
     return (
         <Link to="/" className="text-2xl p-4 text-white flex items-center">
@@ -45,8 +49,19 @@ function App() {
                         <Route path="/verbs" element={<Verbs />} />
                     </Routes>
                 </div>
-                <div className="bg-primary text-2xl p-4 text-white flex items-center">
-                    <Link to="/verbs">Verbs</Link>
+                <div className="bg-gray-900 text-2xl p-4 text-white flex items-center justify-around nav">
+                    <NavLink to="/" className="flex items-center justify-center flex-col">
+                        <Icon.Fire />
+                        <span className="text-base">Practice</span>
+                    </NavLink>
+                    <NavLink to="/verbs" className="flex items-center justify-center flex-col">
+                        <Icon.Book />
+                        <span className="text-base">Verbs</span>
+                    </NavLink>
+                    <NavLink to="/" className="flex items-center justify-center flex-col pointer-events-none opacity-80">
+                        <Icon.Gear />
+                        <span className="text-base">Soon...</span>
+                    </NavLink>
                 </div>
             </div>
         </div>

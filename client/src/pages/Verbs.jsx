@@ -69,7 +69,7 @@ const Verbs = () => {
                                 type="checkbox"
                                 checked={verb.isChosen}
                                 onChange={() => selectVerb(verb)}
-                                // className="hidden"
+                                className="mr-2 w-3 h-3"
                             />
                             <p>{verb.infinitive}</p>
                         </label>

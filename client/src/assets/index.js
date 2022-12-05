@@ -12,14 +12,26 @@ export const getVerbs = (verbs, num, isChosenFilter = true, currentVerb) => {
     let chosenVerbs = isChosenFilter
         ? verbs.filter((item) => item.isChosen)
         : verbs.filter((item) => !item.isChosen);
+
     if (chosenVerbs.length === 0) {
         // chosenVerbs = verbs.filter((item) => item.isChosen && item.id !== currentVerb.id);
         chosenVerbs = verbs;
     }
-    const mixedArr = mixArray(chosenVerbs);
-    const randomIndex = Math.floor(Math.random() * (num - 0) + 0);
+    let randomIndex = Math.floor(Math.random() * (num - 0) + 0);
+    let indexEnd = randomIndex + num;
 
-    const slicedVerbs = mixedArr.slice(randomIndex, randomIndex + num);
+    // if quantity smaller than 4, then just return chosenVerbs
+    if (chosenVerbs.length < 4) {
+        randomIndex = Math.floor(
+            Math.random() * (chosenVerbs.length - 1 - 0) + 0
+        );
+        indexEnd = chosenVerbs.length - 1;
+        return chosenVerbs;
+    }
+    // mix up the array
+    const mixedArr = mixArray(chosenVerbs);
+
+    const slicedVerbs = mixedArr.slice(randomIndex, indexEnd);
     const result = slicedVerbs.map((item) => ({
         ...item,
         isActive: false,

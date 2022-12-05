@@ -10,6 +10,8 @@ import {
 import { useEffect } from "react";
 import { cardsStepsArr, istHatOptions } from "../assets/constants";
 import { memo } from "react";
+import Error from "../components/Error";
+import macron from "./../assets/gifs/macron-choque.gif";
 
 const Questions = memo((props) => {
     return (
@@ -62,6 +64,18 @@ const Answers = memo((props) => {
     );
 });
 
+const Done = () => {
+    return (
+        <div>
+            <h1 className="text-4xl font-bold text-center mt-9">All done!</h1>
+            <p className="text-2xl font-semibold text-center mt-5">
+                Great, keep it up!
+            </p>
+            <img src={macron} alt="" className="w-[90%] mx-auto mt-5 rounded-2xl"/>
+        </div>
+    );
+};
+
 const Cards = () => {
     // Get n number length array of verbs using getVerbs function. It's mixed.
     const [verbsInCards, setVerbsInCards] = useState(
@@ -84,8 +98,8 @@ const Cards = () => {
     const [currentStep, setCurrentStep] = useState(0);
     // It's an array of 'questions' (forms of the current verb) that we see on top.
     const [questionArr, setQuestionArr] = useState(null);
-
     const [isAnswering, setIsAnswering] = useState(true);
+    const [isEnd, setIsEnd] = useState(false);
 
     // Check if the answer is correct
     const checkAnswer = (answer) => {
@@ -134,6 +148,7 @@ const Cards = () => {
     useEffect(() => {
         if (currentVerbIndex === verbsInCards.length) {
             console.log("we're done!");
+            setIsEnd(true);
         } else if (currentStep === cardsStepsArr.length) {
             setCurrentVerb(verbsInCards[currentVerbIndex]);
             setCurrentStep(0);
@@ -144,16 +159,18 @@ const Cards = () => {
     // So this useEffect will update the questionArr to show the tranlsation of the words first
     useEffect(() => {
         // Initial answer options
-        if (!answerOptions || currentStep === 0) {
+        if ((!answerOptions || currentStep === 0) && currentVerb) {
             setAnswerOptions(mixArray(mixCorrect(irregular, currentVerb)));
         }
 
         // Initital question
-        if (!questionArr || currentStep === 0) {
+        if ((!questionArr || currentStep === 0) && currentVerb) {
             setQuestionArr([currentVerb.translations.FR]);
         }
     }, [currentVerb]);
 
+    if (!currentVerb) return <Error />;
+    if (isEnd) return <Done />;
     return (
         <div className="py-4 px-2 grid grid-rows-2 grid-cols-1 gap-3 h-full">
             <Questions questionArr={questionArr} />

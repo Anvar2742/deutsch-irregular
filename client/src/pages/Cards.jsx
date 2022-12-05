@@ -1,6 +1,6 @@
 import { useState } from "react";
 import irregular from "./../assets/irregular.json";
-import { getVerbs, mixArray, mixCorrect } from "../assets";
+import { getVerbs, mixArray, mixCorrect, updateAnswerOptions } from "../assets";
 import { useEffect } from "react";
 import { cardsStepsArr, istHatOptions } from "../assets/constants";
 
@@ -78,7 +78,7 @@ const Cards = () => {
             setAnswerOptions((prevVerbs) => {
                 const isPerfektStep = cardsStepsArr[currentStep] === "perfekt";
                 const isIstHatStep = cardsStepsArr[currentStep] === "ist_hat";
-                const mixedVerbs = mixCorrect(irregular, currentVerb)
+                const mixedVerbs = mixCorrect(irregular, currentVerb);
 
                 return mixedVerbs.map((item, i) => {
                     if (isPerfektStep || isIstHatStep) {
@@ -105,96 +105,21 @@ const Cards = () => {
             return;
         }
         /* This time out is needed to go to the next question about current verb */
-        const setNextTimeOut = (answer) => {
+        const setNextTimeOut = () => {
             setTimeout(() => {
                 // Go to next step
                 nextStep();
             }, 1000);
         };
 
-        /* "perfekt" step scenario */
-        if (cardsStepsArr[currentStep] === "perfekt") {
-            // Set answerOptions, so we can highlight the answers
-            setAnswerOptions((prevVerbs) =>
-                prevVerbs.map((item) => {
-                    if (answer.perfekt === item.perfekt) {
-                        return {
-                            ...item,
-                            isActive: item.isActive
-                                ? item.isActive
-                                : answer === item,
-                            isCorrect:
-                                answer.perfekt === currentVerb.perfekt[0],
-                        };
-                    } else {
-                        return item;
-                    }
-                })
-            );
-
-            /* If the answer "perfekt" matches the currentVerb's first "perfekt" then it's the correct answer */
-            // So we can set our timer and go to the next step
-            if (answer.perfekt === currentVerb.perfekt[0]) {
-                setNextTimeOut(answer);
-                /* Set isAnswering to false, so people can't randomly highlight verbs even though they're already done with the current step */
-                setIsAnswering(false);
-            }
-            return;
-        }
-
-        /* "ist_hat scenario" */
-        if (cardsStepsArr[currentStep] === "ist_hat") {
-            // Set answerOptions, so we can highlight the answers
-            setAnswerOptions((prevVerbs) =>
-                prevVerbs.map((item) => {
-                    if (answer.ist_hat === item.ist_hat) {
-                        return {
-                            ...item,
-                            isActive: item.isActive
-                                ? item.isActive
-                                : answer === item,
-                            isCorrect: answer.ist_hat === currentVerb.ist_hat,
-                        };
-                    } else {
-                        return item;
-                    }
-                })
-            );
-
-            /* If the answer "ist_hat" matches the currentVerb "ist_hat" then it's the correct answer */
-            // So we can set our timer and go to the next step
-            if (answer.ist_hat === currentVerb.ist_hat) {
-                setNextTimeOut(answer);
-                /* Set isAnswering to false, so people can't randomly highlight verbs even though they're already done with the current step */
-                setIsAnswering(false);
-            }
-            return;
-        }
-
-        // Set answerOptions, so we can highlight the answers
-        setAnswerOptions((prevVerbs) =>
-            prevVerbs.map((item) => {
-                if (item === answer) {
-                    return {
-                        ...item,
-                        isActive: item.isActive
-                            ? item.isActive
-                            : answer === item,
-                        isCorrect: answer.id === currentVerb.id,
-                    };
-                } else {
-                    return item;
-                }
-            })
+        updateAnswerOptions(
+            answer,
+            cardsStepsArr[currentStep],
+            currentVerb,
+            setNextTimeOut,
+            setAnswerOptions,
+            setIsAnswering
         );
-
-        /* If the answer id matches the currentVerb id then it's the correct answer */
-        // So we can set our timer and go to the next step
-        if (answer.id === currentVerb.id) {
-            setNextTimeOut(answer);
-            /* Set isAnswering to false, so people can't randomly highlight verbs even though they're already done with the current step */
-            setIsAnswering(false);
-        }
     }
 
     // Detects if it's the end for the verb
@@ -219,14 +144,12 @@ const Cards = () => {
     // Current verb updates only when the quiz (a round) is finished
     // So this useEffect will update the questionArr to show the tranlsation of the words first
     useEffect(() => {
-        // Set the very first answer options
+        // Initial answer options
         if (!answerOptions || currentStep === 0) {
-            setAnswerOptions(
-                mixArray(mixCorrect(irregular, currentVerb))
-            );
+            setAnswerOptions(mixArray(mixCorrect(irregular, currentVerb)));
         }
 
-        // Set the very first questions array
+        // Initital question
         if (!questionArr || currentStep === 0) {
             setQuestionArr([currentVerb.translations.FR]);
         } else if (currentVerb === undefined) {

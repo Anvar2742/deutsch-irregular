@@ -1,4 +1,5 @@
-[{
+[
+    {
         "perfekt": [
             "gebacken",
             "backen",
@@ -18,7 +19,8 @@
         "conjugation": "backt",
         "infinitive": "backen",
         "praet": "backte",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -40,7 +42,8 @@
         "conjugation": "befiehlt",
         "infinitive": "befehlen",
         "praet": "befahl",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -62,7 +65,8 @@
         "conjugation": "beginnt",
         "infinitive": "beginnen",
         "praet": "begann",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -84,7 +88,8 @@
         "conjugation": "beißt",
         "infinitive": "beißen",
         "praet": "biss",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -106,7 +111,8 @@
         "conjugation": "bekommt",
         "infinitive": "bekommen",
         "praet": "bekam",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -128,7 +134,8 @@
         "conjugation": "birgt",
         "infinitive": "bergen",
         "praet": "barg",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -150,7 +157,8 @@
         "conjugation": "betrügt",
         "infinitive": "betrügen",
         "praet": "betrog",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -172,7 +180,8 @@
         "conjugation": "bewegt",
         "infinitive": "bewegen",
         "praet": "bewog",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -194,7 +203,8 @@
         "conjugation": "beweist",
         "infinitive": "beweisen",
         "praet": "bewies",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -216,7 +226,8 @@
         "conjugation": "biegt",
         "infinitive": "biegen",
         "praet": "bog",
-        "ist_hat": "ist/hat"
+        "ist_hat": "ist/hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -238,7 +249,8 @@
         "conjugation": "bietet",
         "infinitive": "bieten",
         "praet": "bot",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -260,7 +272,8 @@
         "conjugation": "bindet",
         "infinitive": "binden",
         "praet": "band",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -282,7 +295,8 @@
         "conjugation": "bittet",
         "infinitive": "bitten",
         "praet": "bat",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -304,7 +318,8 @@
         "conjugation": "bläst",
         "infinitive": "blasen",
         "praet": "blies",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -326,7 +341,8 @@
         "conjugation": "bleibt",
         "infinitive": "bleiben",
         "praet": "blieb",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -348,7 +364,8 @@
         "conjugation": "brät",
         "infinitive": "braten",
         "praet": "briet",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -370,7 +387,8 @@
         "conjugation": "bricht",
         "infinitive": "brechen",
         "praet": "brach",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -392,7 +410,8 @@
         "conjugation": "brennt",
         "infinitive": "brennen",
         "praet": "brannte",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -414,7 +433,8 @@
         "conjugation": "bringt",
         "infinitive": "bringen",
         "praet": "brachte",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -436,7 +456,8 @@
         "conjugation": "denkt",
         "infinitive": "denken",
         "praet": "dachte",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -458,7 +479,8 @@
         "conjugation": "dringt",
         "infinitive": "dringen",
         "praet": "drang",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -480,7 +502,8 @@
         "conjugation": "empfiehlt",
         "infinitive": "empfehlen",
         "praet": "empfahl",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -502,7 +525,8 @@
         "conjugation": "erschrickt",
         "infinitive": "erschrecken",
         "praet": "erschrak",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -524,7 +548,8 @@
         "conjugation": "isst",
         "infinitive": "essen",
         "praet": "aß",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -546,7 +571,8 @@
         "conjugation": "fährt",
         "infinitive": "fahren",
         "praet": "fuhr",
-        "ist_hat": "ist/hat"
+        "ist_hat": "ist/hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -568,7 +594,8 @@
         "conjugation": "fällt",
         "infinitive": "fallen",
         "praet": "fiel",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -590,7 +617,8 @@
         "conjugation": "fängt",
         "infinitive": "fangen",
         "praet": "fing",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -612,7 +640,8 @@
         "conjugation": "ficht",
         "infinitive": "fechten",
         "praet": "focht",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -634,7 +663,8 @@
         "conjugation": "findet",
         "infinitive": "finden",
         "praet": "fand",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -656,7 +686,8 @@
         "conjugation": "flicht",
         "infinitive": "flechten",
         "praet": "flocht",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -678,7 +709,8 @@
         "conjugation": "fliegt",
         "infinitive": "fliegen",
         "praet": "flog",
-        "ist_hat": "ist/hat"
+        "ist_hat": "ist/hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -700,7 +732,8 @@
         "conjugation": "flieht",
         "infinitive": "fliehen",
         "praet": "floh",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -722,7 +755,8 @@
         "conjugation": "fließt",
         "infinitive": "fließen",
         "praet": "floss",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -744,7 +778,8 @@
         "conjugation": "frisst",
         "infinitive": "fressen",
         "praet": "fraß",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -766,7 +801,8 @@
         "conjugation": "friert",
         "infinitive": "frieren",
         "praet": "fror",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -788,7 +824,8 @@
         "conjugation": "gebärt",
         "infinitive": "gebären",
         "praet": "gebar",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -810,7 +847,8 @@
         "conjugation": "gibt",
         "infinitive": "geben",
         "praet": "gab",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -832,7 +870,8 @@
         "conjugation": "gedeiht",
         "infinitive": "gedeihen",
         "praet": "gedieh",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -854,7 +893,8 @@
         "conjugation": "geht",
         "infinitive": "gehen",
         "praet": "ging",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -876,7 +916,8 @@
         "conjugation": 404,
         "infinitive": "gefallen",
         "praet": "gefiel",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -898,7 +939,8 @@
         "conjugation": "gelingt",
         "infinitive": "gelingen",
         "praet": "gelang",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -920,7 +962,8 @@
         "conjugation": "gilt",
         "infinitive": "gelten",
         "praet": "galt",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -942,7 +985,8 @@
         "conjugation": "genießt",
         "infinitive": "genießen",
         "praet": "genoss",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -964,7 +1008,8 @@
         "conjugation": "geschieht",
         "infinitive": "geschehen",
         "praet": "geschah",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -986,7 +1031,8 @@
         "conjugation": "gewinnt",
         "infinitive": "gewinnen",
         "praet": "gewann",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1008,7 +1054,8 @@
         "conjugation": "gießt",
         "infinitive": "gießen",
         "praet": "goss",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1030,7 +1077,8 @@
         "conjugation": "gleicht",
         "infinitive": "gleichen",
         "praet": "glich",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1052,7 +1100,8 @@
         "conjugation": "gleitet",
         "infinitive": "gleiten",
         "praet": "glitt",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1074,7 +1123,8 @@
         "conjugation": "gräbt",
         "infinitive": "graben",
         "praet": "grub",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1096,7 +1146,8 @@
         "conjugation": "greift",
         "infinitive": "greifen",
         "praet": "griff",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1118,7 +1169,8 @@
         "conjugation": 404,
         "infinitive": "haben",
         "praet": "hatte",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1140,7 +1192,8 @@
         "conjugation": "hält",
         "infinitive": "halten",
         "praet": "hielt",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1162,7 +1215,8 @@
         "conjugation": "hängt",
         "infinitive": "hängen",
         "praet": "hing",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1184,7 +1238,8 @@
         "conjugation": "hebt",
         "infinitive": "heben",
         "praet": "hob",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1206,7 +1261,8 @@
         "conjugation": "heißt",
         "infinitive": "heißen",
         "praet": "hieß",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1228,7 +1284,8 @@
         "conjugation": "hilft",
         "infinitive": "helfen",
         "praet": "half",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1250,7 +1307,8 @@
         "conjugation": "kennt",
         "infinitive": "kennen",
         "praet": "kannte",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1272,7 +1330,8 @@
         "conjugation": "klingt",
         "infinitive": "klingen",
         "praet": "klang",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1294,7 +1353,8 @@
         "conjugation": "kommt",
         "infinitive": "kommen",
         "praet": "kam",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1316,7 +1376,8 @@
         "conjugation": "kriecht",
         "infinitive": "kriechen",
         "praet": "kroch",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1338,7 +1399,8 @@
         "conjugation": "lädt",
         "infinitive": "laden",
         "praet": "lud",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1360,7 +1422,8 @@
         "conjugation": "läßt",
         "infinitive": "lassen",
         "praet": "ließ",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1382,7 +1445,8 @@
         "conjugation": "läuft",
         "infinitive": "laufen",
         "praet": "lief",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1404,7 +1468,8 @@
         "conjugation": "leidet",
         "infinitive": "leiden",
         "praet": "litt",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1426,7 +1491,8 @@
         "conjugation": "leiht",
         "infinitive": "leihen",
         "praet": "lieh",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1448,7 +1514,8 @@
         "conjugation": "liest",
         "infinitive": "lesen",
         "praet": "las",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1470,7 +1537,8 @@
         "conjugation": "liegt",
         "infinitive": "liegen",
         "praet": "lag",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1492,7 +1560,8 @@
         "conjugation": "lügt",
         "infinitive": "lügen",
         "praet": "log",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1514,7 +1583,8 @@
         "conjugation": "mahlt",
         "infinitive": "mahlen",
         "praet": "mahlte",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1536,7 +1606,8 @@
         "conjugation": "meidet",
         "infinitive": "meiden",
         "praet": "mied",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1558,7 +1629,8 @@
         "conjugation": "milkt",
         "infinitive": "melken",
         "praet": "molk",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1580,7 +1652,8 @@
         "conjugation": "misst",
         "infinitive": "messen",
         "praet": "maß",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1602,7 +1675,8 @@
         "conjugation": "misslingt",
         "infinitive": "misslingen",
         "praet": "misslang",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1624,7 +1698,8 @@
         "conjugation": "nimmt",
         "infinitive": "nehmen",
         "praet": "nahm",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1646,7 +1721,8 @@
         "conjugation": "nennt",
         "infinitive": "nennen",
         "praet": "nannte",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1668,7 +1744,8 @@
         "conjugation": "pfeift",
         "infinitive": "pfeifen",
         "praet": "pfiff",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1690,7 +1767,8 @@
         "conjugation": "preist",
         "infinitive": "preisen",
         "praet": "pries",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1712,7 +1790,8 @@
         "conjugation": "rät",
         "infinitive": "raten",
         "praet": "riet",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1734,7 +1813,8 @@
         "conjugation": "reibt",
         "infinitive": "reiben",
         "praet": "rieb",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1756,7 +1836,8 @@
         "conjugation": "reißt",
         "infinitive": "reißen",
         "praet": "riss",
-        "ist_hat": "ist/hat"
+        "ist_hat": "ist/hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1778,7 +1859,8 @@
         "conjugation": "reitet",
         "infinitive": "reiten",
         "praet": "ritt",
-        "ist_hat": "ist/hat"
+        "ist_hat": "ist/hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1800,7 +1882,8 @@
         "conjugation": "rennt",
         "infinitive": "rennen",
         "praet": "rannte",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1822,7 +1905,8 @@
         "conjugation": "riecht",
         "infinitive": "riechen",
         "praet": "roch",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1844,7 +1928,8 @@
         "conjugation": "ringt",
         "infinitive": "ringen",
         "praet": "rang",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1866,7 +1951,8 @@
         "conjugation": "rinnt",
         "infinitive": "rinnen",
         "praet": "rann",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1888,7 +1974,8 @@
         "conjugation": "ruft",
         "infinitive": "rufen",
         "praet": "rief",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1910,7 +1997,8 @@
         "conjugation": "salzt",
         "infinitive": "salzen",
         "praet": "salzte",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1932,7 +2020,8 @@
         "conjugation": "saugt",
         "infinitive": "saugen",
         "praet": "sog",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1954,7 +2043,8 @@
         "conjugation": "schafft",
         "infinitive": "schaffen",
         "praet": "schuf",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1976,7 +2066,8 @@
         "conjugation": "scheidet",
         "infinitive": "scheiden",
         "praet": "schied",
-        "ist_hat": "ist/hat"
+        "ist_hat": "ist/hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -1998,7 +2089,8 @@
         "conjugation": "scheint",
         "infinitive": "scheinen",
         "praet": "schien",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2020,7 +2112,8 @@
         "conjugation": "schiebt",
         "infinitive": "schieben",
         "praet": "schob",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2042,7 +2135,8 @@
         "conjugation": "schießt",
         "infinitive": "schießen",
         "praet": "schoss",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2064,7 +2158,8 @@
         "conjugation": "schläft",
         "infinitive": "schlafen",
         "praet": "schlief",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2086,7 +2181,8 @@
         "conjugation": "schlägt",
         "infinitive": "schlagen",
         "praet": "schlug",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2108,7 +2204,8 @@
         "conjugation": "schleicht",
         "infinitive": "schleichen",
         "praet": "schlich",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2130,7 +2227,8 @@
         "conjugation": "schleift",
         "infinitive": "schleifen",
         "praet": "schliff",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2152,7 +2250,8 @@
         "conjugation": "schließt",
         "infinitive": "schließen",
         "praet": "schloss",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2174,7 +2273,8 @@
         "conjugation": "schlingt",
         "infinitive": "schlingen",
         "praet": "schlang",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2196,7 +2296,8 @@
         "conjugation": "schmeißt",
         "infinitive": "schmeißen",
         "praet": "schmiss",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2218,7 +2319,8 @@
         "conjugation": "schmilzt",
         "infinitive": "schmelzen",
         "praet": "schmolz",
-        "ist_hat": "ist/hat"
+        "ist_hat": "ist/hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2240,7 +2342,8 @@
         "conjugation": "schneidet",
         "infinitive": "schneiden",
         "praet": "schnitt",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2262,7 +2365,8 @@
         "conjugation": "schreibt",
         "infinitive": "schreiben",
         "praet": "schrieb",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2284,7 +2388,8 @@
         "conjugation": "schreit",
         "infinitive": "schreien",
         "praet": "schrie",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2306,7 +2411,8 @@
         "conjugation": "schreitet",
         "infinitive": "schreiten",
         "praet": "schritt",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2328,7 +2434,8 @@
         "conjugation": "schweigt",
         "infinitive": "schweigen",
         "praet": "schwieg",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2350,7 +2457,8 @@
         "conjugation": "schwimmt",
         "infinitive": "schwimmen",
         "praet": "schwamm",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2372,7 +2480,8 @@
         "conjugation": "schwingt",
         "infinitive": "schwingen",
         "praet": "schwang",
-        "ist_hat": "ist/hat"
+        "ist_hat": "ist/hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2394,7 +2503,8 @@
         "conjugation": "schwört",
         "infinitive": "schwören",
         "praet": "schwor",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2416,7 +2526,8 @@
         "conjugation": "sieht",
         "infinitive": "sehen",
         "praet": "sah",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2438,7 +2549,8 @@
         "conjugation": 404,
         "infinitive": "sein",
         "praet": "war",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2460,7 +2572,8 @@
         "conjugation": "sendet",
         "infinitive": "senden",
         "praet": "sandte",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2482,7 +2595,8 @@
         "conjugation": "singt",
         "infinitive": "singen",
         "praet": "sang",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2504,7 +2618,8 @@
         "conjugation": "sinkt",
         "infinitive": "sinken",
         "praet": "sank",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2526,7 +2641,8 @@
         "conjugation": "sitzt",
         "infinitive": "sitzen",
         "praet": "saß",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2548,7 +2664,8 @@
         "conjugation": "spaltet",
         "infinitive": "spalten",
         "praet": "spaltete",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2570,7 +2687,8 @@
         "conjugation": "spinnt",
         "infinitive": "spinnen",
         "praet": "spann",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2592,7 +2710,8 @@
         "conjugation": "spricht",
         "infinitive": "sprechen",
         "praet": "sprach",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2614,7 +2733,8 @@
         "conjugation": "springt",
         "infinitive": "springen",
         "praet": "sprang",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2636,7 +2756,8 @@
         "conjugation": 404,
         "infinitive": "steсhen",
         "praet": "stach",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2658,7 +2779,8 @@
         "conjugation": "steht",
         "infinitive": "stehen",
         "praet": "stand",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2680,7 +2802,8 @@
         "conjugation": "stiehlt",
         "infinitive": "stehlen",
         "praet": "stahl",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2702,7 +2825,8 @@
         "conjugation": "steigt",
         "infinitive": "steigen",
         "praet": "stieg",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2724,7 +2848,8 @@
         "conjugation": "stirbt",
         "infinitive": "sterben",
         "praet": "starb",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2746,7 +2871,8 @@
         "conjugation": "stinkt",
         "infinitive": "stinken",
         "praet": "stank",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2768,7 +2894,8 @@
         "conjugation": "stößt",
         "infinitive": "stoßen",
         "praet": "stieß",
-        "ist_hat": "ist/hat"
+        "ist_hat": "ist/hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2790,7 +2917,8 @@
         "conjugation": "streicht",
         "infinitive": "streichen",
         "praet": "strich",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2812,7 +2940,8 @@
         "conjugation": "streitet",
         "infinitive": "streiten",
         "praet": "stritt",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2834,7 +2963,8 @@
         "conjugation": "trägt",
         "infinitive": "tragen",
         "praet": "trug",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2856,7 +2986,8 @@
         "conjugation": "trifft",
         "infinitive": "treffen",
         "praet": "traf",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2878,7 +3009,8 @@
         "conjugation": "treibt",
         "infinitive": "treiben",
         "praet": "trieb",
-        "ist_hat": "ist/hat"
+        "ist_hat": "ist/hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2900,7 +3032,8 @@
         "conjugation": "tritt",
         "infinitive": "treten",
         "praet": "trat",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2922,7 +3055,8 @@
         "conjugation": "trinkt",
         "infinitive": "trinken",
         "praet": "trank",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2944,7 +3078,8 @@
         "conjugation": "trügt",
         "infinitive": "trügen",
         "praet": "trog",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2966,7 +3101,8 @@
         "conjugation": "tut",
         "infinitive": "tun",
         "praet": "tat",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -2988,7 +3124,8 @@
         "conjugation": 404,
         "infinitive": "verbieten",
         "praet": "verbot",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3010,7 +3147,8 @@
         "conjugation": "verdirbt",
         "infinitive": "verderben",
         "praet": "verdarb",
-        "ist_hat": "ist/hat"
+        "ist_hat": "ist/hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3032,7 +3170,8 @@
         "conjugation": "vergißt",
         "infinitive": "vergessen",
         "praet": "vergaß",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3054,7 +3193,8 @@
         "conjugation": 404,
         "infinitive": "verlassen",
         "praet": "verließ",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3076,7 +3216,8 @@
         "conjugation": "verliert",
         "infinitive": "verlieren",
         "praet": "verlor",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3098,7 +3239,8 @@
         "conjugation": 404,
         "infinitive": "verschweigen",
         "praet": "verschwieg",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3120,7 +3262,8 @@
         "conjugation": "verschwindet",
         "infinitive": "verschwinden",
         "praet": "verschwand",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3142,7 +3285,8 @@
         "conjugation": "verzeiht",
         "infinitive": "verzeihen",
         "praet": "verzieh",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3164,7 +3308,8 @@
         "conjugation": "wächst",
         "infinitive": "wachsen",
         "praet": "wuchs",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3186,7 +3331,8 @@
         "conjugation": "wäscht",
         "infinitive": "waschen",
         "praet": "wusch",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3208,7 +3354,8 @@
         "conjugation": "weicht",
         "infinitive": "weichen",
         "praet": "wich",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3230,7 +3377,8 @@
         "conjugation": "weist",
         "infinitive": "weisen",
         "praet": "wies",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3252,7 +3400,8 @@
         "conjugation": "wendet",
         "infinitive": "wenden",
         "praet": "wandte",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3274,7 +3423,8 @@
         "conjugation": "wirbt",
         "infinitive": "werben",
         "praet": "warb",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3296,7 +3446,8 @@
         "conjugation": 404,
         "infinitive": "werden",
         "praet": "wurde",
-        "ist_hat": "ist"
+        "ist_hat": "ist",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3318,7 +3469,8 @@
         "conjugation": "wirft",
         "infinitive": "werfen",
         "praet": "warf",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3340,7 +3492,8 @@
         "conjugation": "wiegt",
         "infinitive": "wiegen",
         "praet": "wog",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3362,7 +3515,8 @@
         "conjugation": "windet",
         "infinitive": "winden",
         "praet": "wand",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3384,7 +3538,8 @@
         "conjugation": "weiß",
         "infinitive": "wissen",
         "praet": "wusste",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3406,7 +3561,8 @@
         "conjugation": "zieht",
         "infinitive": "ziehen",
         "praet": "zog",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     },
     {
         "perfekt": [
@@ -3428,6 +3584,7 @@
         "conjugation": "zwingt",
         "infinitive": "zwingen",
         "praet": "zwang",
-        "ist_hat": "hat"
+        "ist_hat": "hat",
+        "isChosen": false
     }
 ]

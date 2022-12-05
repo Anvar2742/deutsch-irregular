@@ -6,7 +6,14 @@ import { cardsStepsArr, istHatOptions } from "../assets/constants";
 
 const Cards = () => {
     // Get n number length array of verbs using getVerbs function. It's mixed.
-    const [verbsInCards, setVerbsInCards] = useState(getVerbs(irregular, 4));
+    const [verbsInCards, setVerbsInCards] = useState(
+        getVerbs(
+            localStorage.getItem("irregularList")
+                ? JSON.parse(localStorage.getItem("irregularList"))
+                : irregular,
+            4
+        )
+    );
     // Copy the verbsInCards in here, so we can the options for the user
     const [answerOptions, setAnswerOptions] = useState([...verbsInCards]);
     // Set current verb index to get one of the verbs
@@ -214,11 +221,12 @@ const Cards = () => {
         setQuestionArr([currentVerb.translations.FR]);
     }, [currentVerb]);
 
+    useEffect(() => {
+        console.log(verbsInCards);
+    }, [verbsInCards]);
+
     return (
         <div className="">
-            <div className="h-[10vh] text-2xl p-4 border-2 border-black">
-                Cards
-            </div>
             <div className="grid auto-rows-auto grid-cols-1 items-center justify-items-center h-[40vh] border-2 border-black">
                 <p>
                     {questionArr.map((item) => (
@@ -228,7 +236,7 @@ const Cards = () => {
                     ))}
                 </p>
             </div>
-            <div className="grid auto-rows-auto grid-cols-2 h-[50vh]">
+            <div className="grid auto-rows-auto grid-cols-2 h-[40vh]">
                 {answerOptions.map((item) => (
                     <button
                         key={

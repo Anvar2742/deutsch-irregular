@@ -1,6 +1,12 @@
 import { useState } from "react";
 import irregular from "./../assets/irregular.json";
-import { getVerbs, mixArray, mixCorrect, updateAnswerOptions } from "../assets";
+import {
+    getVerbs,
+    mixArray,
+    mixCorrect,
+    nextStep,
+    updateAnswerOptions,
+} from "../assets";
 import { useEffect } from "react";
 import { cardsStepsArr, istHatOptions } from "../assets/constants";
 import { memo } from "react";
@@ -81,80 +87,6 @@ const Cards = () => {
 
     const [isAnswering, setIsAnswering] = useState(true);
 
-    /* Go to the next step for the current verb */
-    // Set answer options
-    // Set current step
-    // Set already answered options
-    const nextStep = () => {
-        setIsAnswering(true);
-        setCurrentStep((prev) => prev + 1);
-
-        // if we're approaching to "perfekt" step
-        // Set answer options from "perfekt" key
-        // else: just regular setAnswerOptions from options from all verbs
-        if (cardsStepsArr[currentStep + 1] === "perfekt") {
-            setAnswerOptions(() => {
-                const correctAnswer = currentVerb.perfekt[0];
-                const mixedOptions = mixArray(
-                    currentVerb.perfekt.slice(1, 4).concat(correctAnswer)
-                );
-                return mixedOptions.map((item) => {
-                    return {
-                        perfekt: item,
-                        isActive: false,
-                        isCorrect: false,
-                    };
-                });
-            });
-        } else if (cardsStepsArr[currentStep + 1] === "ist_hat") {
-            setAnswerOptions(() => {
-                const mixedOptions = mixArray(istHatOptions);
-                return mixedOptions.map((item) => {
-                    return {
-                        ist_hat: item,
-                        isActive: false,
-                        isCorrect: false,
-                    };
-                });
-            });
-        } else {
-            setAnswerOptions((prevVerbs) => {
-                const isPerfektStep = cardsStepsArr[currentStep] === "perfekt";
-                const isIstHatStep = cardsStepsArr[currentStep] === "ist_hat";
-                const mixedVerbs = mixCorrect(irregular, currentVerb);
-
-                return mixedVerbs.map((item, i) => {
-                    if (isPerfektStep || isIstHatStep) {
-                        return {
-                            ...verbsInCards[i],
-                            isActive: false,
-                            isCorrect: false,
-                        };
-                    } else {
-                        return {
-                            ...item,
-                            isActive: false,
-                            isCorrect: false,
-                        };
-                    }
-                });
-            });
-        }
-
-        if (currentStep + 1 === cardsStepsArr.length) {
-            return;
-        }
-        // Set the forms that we already answered
-        if (currentStep + 1 > 0) {
-            setQuestionArr((prevArr) => [
-                ...prevArr,
-                cardsStepsArr[currentStep] === "perfekt"
-                    ? currentVerb[cardsStepsArr[currentStep]][0]
-                    : currentVerb[cardsStepsArr[currentStep]],
-            ]);
-        }
-    };
-
     // Check if the answer is correct
     const checkAnswer = (answer) => {
         if (!isAnswering) {
@@ -164,7 +96,18 @@ const Cards = () => {
         const setNextTimeOut = () => {
             setTimeout(() => {
                 // Go to next step
-                nextStep();
+                nextStep(
+                    setIsAnswering,
+                    setCurrentStep,
+                    setAnswerOptions,
+                    setQuestionArr,
+                    cardsStepsArr,
+                    currentStep,
+                    currentVerb,
+                    irregular,
+                    istHatOptions,
+                    verbsInCards
+                );
             }, 1000);
         };
 
@@ -210,10 +153,6 @@ const Cards = () => {
             setQuestionArr([currentVerb.translations.FR]);
         }
     }, [currentVerb]);
-
-    useEffect(() => {
-        // console.log("questionArr");
-    }, [questionArr]);
 
     return (
         <div className="py-4 px-2 grid grid-rows-2 grid-cols-1 gap-3 h-full">

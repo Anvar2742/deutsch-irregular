@@ -13,7 +13,8 @@ export const getVerbs = (verbs, num, isChosenFilter = true, currentVerb) => {
         ? verbs.filter((item) => item.isChosen)
         : verbs.filter((item) => !item.isChosen);
     if (chosenVerbs.length === 0) {
-        chosenVerbs = verbs.filter((item) => item.isChosen && item.id !== currentVerb.id);
+        // chosenVerbs = verbs.filter((item) => item.isChosen && item.id !== currentVerb.id);
+        chosenVerbs = verbs;
     }
     const mixedArr = mixArray(chosenVerbs);
     const randomIndex = Math.floor(Math.random() * (num - 0) + 0);
@@ -78,5 +79,90 @@ export const updateAnswerOptions = (
         setNextTimeOut();
         /* Set isAnswering to false, so people can't randomly highlight verbs even though they're already done with the current step */
         setIsAnswering(false);
+    }
+};
+
+/* Go to the next step for the current verb */
+// Set answer options
+// Set current step
+// Set already answered options
+export const nextStep = (
+    setIsAnswering,
+    setCurrentStep,
+    setAnswerOptions,
+    setQuestionArr,
+    cardsStepsArr,
+    currentStep,
+    currentVerb,
+    irregular,
+    istHatOptions,
+    verbsInCards
+) => {
+    setIsAnswering(true);
+    setCurrentStep((prev) => prev + 1);
+
+    // if we're approaching to "perfekt" step
+    // Set answer options from "perfekt" key
+    // else: just regular setAnswerOptions from options from all verbs
+    if (cardsStepsArr[currentStep + 1] === "perfekt") {
+        setAnswerOptions(() => {
+            const correctAnswer = currentVerb.perfekt[0];
+            const mixedOptions = mixArray(
+                currentVerb.perfekt.slice(1, 4).concat(correctAnswer)
+            );
+            return mixedOptions.map((item) => {
+                return {
+                    perfekt: item,
+                    isActive: false,
+                    isCorrect: false,
+                };
+            });
+        });
+    } else if (cardsStepsArr[currentStep + 1] === "ist_hat") {
+        setAnswerOptions(() => {
+            const mixedOptions = mixArray(istHatOptions);
+            return mixedOptions.map((item) => {
+                return {
+                    ist_hat: item,
+                    isActive: false,
+                    isCorrect: false,
+                };
+            });
+        });
+    } else {
+        setAnswerOptions((prevVerbs) => {
+            const isPerfektStep = cardsStepsArr[currentStep] === "perfekt";
+            const isIstHatStep = cardsStepsArr[currentStep] === "ist_hat";
+            const mixedVerbs = mixCorrect(irregular, currentVerb);
+
+            return mixedVerbs.map((item, i) => {
+                if (isPerfektStep || isIstHatStep) {
+                    return {
+                        ...verbsInCards[i],
+                        isActive: false,
+                        isCorrect: false,
+                    };
+                } else {
+                    return {
+                        ...item,
+                        isActive: false,
+                        isCorrect: false,
+                    };
+                }
+            });
+        });
+    }
+
+    if (currentStep + 1 === cardsStepsArr.length) {
+        return;
+    }
+    // Set the forms that we already answered
+    if (currentStep + 1 > 0) {
+        setQuestionArr((prevArr) => [
+            ...prevArr,
+            cardsStepsArr[currentStep] === "perfekt"
+                ? currentVerb[cardsStepsArr[currentStep]][0]
+                : currentVerb[cardsStepsArr[currentStep]],
+        ]);
     }
 };

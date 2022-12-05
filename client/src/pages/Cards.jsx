@@ -1,6 +1,6 @@
 import { useState } from "react";
 import irregular from "./../assets/irregular.json";
-import { getVerbs, mixArray } from "../assets";
+import { getVerbs, mixArray, mixCorrect } from "../assets";
 import { useEffect } from "react";
 import { cardsStepsArr, istHatOptions } from "../assets/constants";
 
@@ -15,11 +15,9 @@ const Cards = () => {
         )
     );
     // Copy the verbsInCards in here, so we can the options for the user
-    const [answerOptions, setAnswerOptions] = useState([...verbsInCards]);
+    const [answerOptions, setAnswerOptions] = useState(null);
     // Set current verb index to get one of the verbs
-    const [currentVerbIndex, setCurrentVerbIndex] = useState(
-        Math.floor(Math.random() * 4)
-    );
+    const [currentVerbIndex, setCurrentVerbIndex] = useState(0);
     // Get a verb by a random index (currentVerbIndex)
     const [currentVerb, setCurrentVerb] = useState(
         verbsInCards[currentVerbIndex]
@@ -27,9 +25,7 @@ const Cards = () => {
     // Set current step for a verb
     const [currentStep, setCurrentStep] = useState(0);
     // It's an array of 'questions' (forms of the current verb) that we see on top.
-    const [questionArr, setQuestionArr] = useState([
-        currentVerb.translations.FR,
-    ]);
+    const [questionArr, setQuestionArr] = useState(null);
 
     const [isAnswering, setIsAnswering] = useState(true);
 
@@ -37,8 +33,19 @@ const Cards = () => {
     // Set answer options
     // Set current step
     // Set already answered options
-    function nextStep(step) {
+    function nextStep() {
         setIsAnswering(true);
+        setCurrentStep((prev) => prev + 1);
+        // Set the forms that we already answered
+        if (currentStep > 0) {
+            setQuestionArr((prevArr) => [
+                ...prevArr,
+                cardsStepsArr[currentStep] === "perfekt"
+                    ? currentVerb[cardsStepsArr[currentStep]][0]
+                    : currentVerb[cardsStepsArr[currentStep]],
+            ]);
+        }
+
         // if we're approaching to "perfekt" step
         // Set answer options from "perfekt" key
         // else: just regular setAnswerOptions from options from all verbs
@@ -71,7 +78,9 @@ const Cards = () => {
             setAnswerOptions((prevVerbs) => {
                 const isPerfektStep = cardsStepsArr[currentStep] === "perfekt";
                 const isIstHatStep = cardsStepsArr[currentStep] === "ist_hat";
-                return prevVerbs.map((item, i) => {
+                const mixedVerbs = mixCorrect(irregular, currentVerb)
+
+                return mixedVerbs.map((item, i) => {
                     if (isPerfektStep || isIstHatStep) {
                         return {
                             ...verbsInCards[i],
@@ -88,15 +97,6 @@ const Cards = () => {
                 });
             });
         }
-
-        setCurrentStep(step);
-        // Set the forms that we already answered
-        setQuestionArr((prevArr) => [
-            ...prevArr,
-            cardsStepsArr[currentStep] === "perfekt"
-                ? currentVerb[cardsStepsArr[currentStep]][0]
-                : currentVerb[cardsStepsArr[currentStep]],
-        ]);
     }
 
     // Check if the answer is correct
@@ -108,7 +108,7 @@ const Cards = () => {
         const setNextTimeOut = (answer) => {
             setTimeout(() => {
                 // Go to next step
-                nextStep(currentStep + 1);
+                nextStep();
             }, 1000);
         };
 
@@ -201,7 +201,6 @@ const Cards = () => {
     // if so add up to the index
     useEffect(() => {
         if (currentStep === cardsStepsArr.length) {
-            // console.log("next verb!");
             setCurrentVerbIndex((prev) => prev + 1);
         }
     }, [currentStep]);
@@ -209,7 +208,9 @@ const Cards = () => {
     // On index update set a new verb (the next verb from array)
     // And set the step to zero, so quiz starts from the translation
     useEffect(() => {
-        if (currentStep === cardsStepsArr.length) {
+        if (currentVerbIndex === verbsInCards.length) {
+            console.log("we're done!");
+        } else if (currentStep === cardsStepsArr.length) {
             setCurrentVerb(verbsInCards[currentVerbIndex]);
             setCurrentStep(0);
         }
@@ -218,18 +219,26 @@ const Cards = () => {
     // Current verb updates only when the quiz (a round) is finished
     // So this useEffect will update the questionArr to show the tranlsation of the words first
     useEffect(() => {
-        setQuestionArr([currentVerb.translations.FR]);
-    }, [currentVerb]);
+        // Set the very first answer options
+        if (!answerOptions || currentStep === 0) {
+            setAnswerOptions(
+                mixArray(mixCorrect(irregular, currentVerb))
+            );
+        }
 
-    useEffect(() => {
-        console.log(verbsInCards);
-    }, [verbsInCards]);
+        // Set the very first questions array
+        if (!questionArr || currentStep === 0) {
+            setQuestionArr([currentVerb.translations.FR]);
+        } else if (currentVerb === undefined) {
+            console.log("undefined!!!");
+        }
+    }, [currentVerb]);
 
     return (
         <div className="">
             <div className="grid auto-rows-auto grid-cols-1 items-center justify-items-center h-[40vh] border-2 border-black">
                 <p>
-                    {questionArr.map((item) => (
+                    {questionArr?.map((item) => (
                         <span className="block text-4xl" key={item}>
                             {item}
                         </span>
@@ -237,7 +246,7 @@ const Cards = () => {
                 </p>
             </div>
             <div className="grid auto-rows-auto grid-cols-2 h-[40vh]">
-                {answerOptions.map((item) => (
+                {answerOptions?.map((item) => (
                     <button
                         key={
                             item.id ? item.id : item[cardsStepsArr[currentStep]]

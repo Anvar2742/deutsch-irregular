@@ -111,6 +111,8 @@ const Cards = () => {
             : practiseItemsArr
     );
 
+    const [isRestart, setIsRestart] = useState(false);
+
     // Check if the answer is correct
     const checkAnswer = (answer) => {
         if (!isAnswering) {
@@ -150,16 +152,33 @@ const Cards = () => {
         if (cardsMode && cardsMode > verbsInCards.length) {
             setCardsMode(verbsInCards.length);
         }
-        setCardsMode();
     }, [verbsInCards]);
 
-    // Detects if it's the end for the verb
     useEffect(() => {
-        // if so add up to the index
+        // Detects if it's the end for the verb
         if (currentStep === cardsStepsArr.length) {
-            setCurrentVerbIndex((prev) => prev + 1);
+            // if infinity mode set restart to true
+            // if not, then just default behaviour
+            if (cardsMode === -1) {
+                if (currentVerbIndex + 1 === verbsInCards.length) {
+                    setIsRestart(true);
+                } else {
+                    setIsRestart(false);
+                    setCurrentVerbIndex((prev) => prev + 1);
+                }
+            } else {
+                setCurrentVerbIndex((prev) => prev + 1);
+            }
         }
     }, [currentStep]);
+
+    useEffect(() => {
+        if (isRestart) {
+            // setVerbsInCards(mixArray(verbsInCards));
+            setCurrentVerbIndex(0);
+            // setCurrentStep(0);
+        }
+    }, [isRestart]);
 
     // On index update
     useEffect(() => {

@@ -11,7 +11,7 @@ import * as Icon from "react-bootstrap-icons";
  */
 const NavBar = () => {
     return (
-        <Link to="/" className="text-2xl p-4 text-white flex items-center">
+        <Link to="/" className="text-2xl p-4 text-white flex items-center bg-dark-blue">
             <Routes>
                 <Route path="/" element="Home" />
                 <Route
@@ -40,7 +40,7 @@ const NavBar = () => {
 function App() {
     return (
         <div className="bg-gray-50 h-[100vh] overflow-hidden">
-            <div className="max-w-md mx-auto h-full bg-primary grid grid-rows-main grid-cols-1">
+            <div className="max-w-md mx-auto h-full grid grid-rows-main grid-cols-1">
                 <NavBar />
                 <div className="bg-white h-full">
                     <Routes>
@@ -60,7 +60,7 @@ function App() {
                     </NavLink>
                     <NavLink to="/settings" className="flex items-center justify-center flex-col pointer-events-none opacity-80">
                         <Icon.Gear />
-                        <span className="text-base">Soon...</span>
+                        <span className="text-base">Soon</span>
                     </NavLink>
                 </div>
             </div>

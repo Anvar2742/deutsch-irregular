@@ -9,6 +9,7 @@ module.exports = {
             },
             colors: {
                 primary: "#0077b6",
+                "dark-blue": "#001d3d",
             },
             boxShadow: {
                 card: "-1px 0px 8px 2px rgba(0,0,0,0.2)",

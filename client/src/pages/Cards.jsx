@@ -12,6 +12,7 @@ import { cardsStepsArr, istHatOptions } from "../assets/constants";
 import { memo } from "react";
 import Error from "../components/Error";
 import macron from "./../assets/gifs/macron-2.gif";
+import { Link } from "react-router-dom";
 
 const Questions = memo((props) => {
     return (
@@ -69,9 +70,11 @@ const Done = () => {
         <div>
             <h1 className="text-4xl font-bold text-center mt-9">All done!</h1>
             <p className="text-2xl font-semibold text-center mt-5">
-                Great, keep it up!
+                Great work, keep it up!
             </p>
-            <img src={macron} alt="" className="w-[90%] mx-auto mt-5 rounded-2xl"/>
+            <div className="mx-9 mt-5 overflow-hidden">
+                <img src={macron} alt="" className="rounded-2xl mx-auto" />
+            </div>
         </div>
     );
 };
@@ -100,6 +103,13 @@ const Cards = () => {
     const [questionArr, setQuestionArr] = useState(null);
     const [isAnswering, setIsAnswering] = useState(true);
     const [isEnd, setIsEnd] = useState(false);
+
+    /* cards mode */
+    const [cardsMode, setCardsMode] = useState(
+        localStorage.getItem("practiseModes")
+            ? JSON.parse(localStorage.getItem("practiseModes"))[0].mode
+            : practiseItemsArr
+    );
 
     // Check if the answer is correct
     const checkAnswer = (answer) => {
@@ -135,22 +145,32 @@ const Cards = () => {
         );
     };
 
-    // Detects if it's the end for the verb
-    // if so add up to the index
+    /* Handle cardsMode */
     useEffect(() => {
+        if (cardsMode && cardsMode > verbsInCards.length) {
+            setCardsMode(verbsInCards.length);
+        }
+        setCardsMode();
+    }, [verbsInCards]);
+
+    // Detects if it's the end for the verb
+    useEffect(() => {
+        // if so add up to the index
         if (currentStep === cardsStepsArr.length) {
             setCurrentVerbIndex((prev) => prev + 1);
         }
     }, [currentStep]);
 
-    // On index update set a new verb (the next verb from array)
-    // And set the step to zero, so quiz starts from the translation
+    // On index update
     useEffect(() => {
-        if (currentVerbIndex === verbsInCards.length) {
+        // end the quiz if current index is equal to the mode
+        if (currentVerbIndex === cardsMode) {
             console.log("we're done!");
             setIsEnd(true);
         } else if (currentStep === cardsStepsArr.length) {
+            // set a new verb (the next verb from array)
             setCurrentVerb(verbsInCards[currentVerbIndex]);
+            // set the step to zero, so quiz starts from the translation
             setCurrentStep(0);
         }
     }, [currentVerbIndex]);

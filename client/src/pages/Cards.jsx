@@ -11,7 +11,7 @@ import { useEffect } from "react";
 import { cardsStepsArr, istHatOptions } from "../assets/constants";
 import { memo } from "react";
 import Error from "../components/Error";
-import macron from "./../assets/gifs/macron-choque.gif";
+import macron from "./../assets/gifs/macron-2.gif";
 
 const Questions = memo((props) => {
     return (

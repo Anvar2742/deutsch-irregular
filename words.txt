@@ -1,0 +1,156 @@
+﻿backen(bäckt)-backte hat_gebacken-backen-bucken-back-gebucken-gebackt-gebockt to_bake-печь-hornear-cuire au four
+befehlen(befiehlt)-befahl hat_befohlen-befiehl-befohl-befehl-befiehlen-befehlen-befohlt to_command-приказывать-ordenar-ordonner
+beginnen-begann hat_begonnen-beginn-begonn-begonnt-begannen-beginnen-begannt to_begin-начинать-empezar-commencer
+beißen-biss hat_gebissen-bissen-bass-bossen-gebossen-gebassen-gebießt to_bite-кусать-morder-mordre
+bekommen-bekam hat_bekommen-bekomm-bekimm-bekammt-bekamen-bekammen-bekomm to_get-получать-recibir-obtenir
+bergen(birgt)-barg hat_geborgen-burg-birg-berg-geborgt-gebergen-gebergt to_salvage-спасать-rescatar-cacher
+betrügen-betrog hat_betrogen-betrug-betrag-betrieg-betrugen-betrogt-betrugt to_deceive-лгать-engañar-tromper
+bewegen-bewog hat_bewogen-beweg-bewug-bewag-bewogt-bewegt-bewegen to_induce-мотивировать-inducir-inciter à
+beweisen-bewies hat_bewiesen-bewiss-beweis-bewuss-bewiest-bewussen-bewusst to_prove-доказывать-probar-prouver
+biegen-bog-ist/hat gebogen-bag-bieg-bug-gebogt-gebagen-gebagt to_bend/turn-огибать/сгибать-girar-courber
+bieten-bot hat_geboten-bat-biet-bitt-gebotet-gebaten-gebatet to_offer-предлагать-ofrecer-offrir
+binden-band hat_gebunden-bund-bind-bond-gebonden-gebinden-gebanden to_bind-связывать-atar-lier
+bitten-bat hat_gebeten-bot-bet-biet-gebaten-geboten-gebieten to_request-просить-pedir-prier de
+blasen(bläst)-blies hat_geblasen-blas-blus-bliss-geblissen-geblast-gebliest to_blow-дуть-soplar-souffler
+bleiben-blieb-ist geblieben-blob-bleib-blub-gebloben-gebleiben-gebluben to_stay-оставаться-permanecer-rester
+braten(brät)-briet hat_gebraten-britt-brot-brat-gebritten-gebroten-gebrieten to_fry-жарить-freír-rôtir
+brechen(bricht)-brach hat_gebrochen-brech-bricht-broch-gebrechen-gebrachen-gebrecht to_break-ломать-romper-casser
+brennen-brannte hat_gebrannt-brunn-brann-brennte-gebrannen-gebrennt-gebrennen to_burn-гореть-arder-brûler
+bringen-brachte hat_gebracht-brachen-bringte-brang-gebrachen-gebringt-gebringen to_bring-приносить-traer-apporter
+denken-dachte hat_gedacht-dachten-denkt-dichte-gedachten-gedenken-gedachten to_think-думать-pensar-penser
+dringen-drang-ist gedrungen-dring-drangte-dringte-gedrungt-gedringen-gedringt to_persist-проникать-insistir-pénétrer
+empfehlen(empfiehlt)-empfahl hat_empfohlen-empfohl-empfiehl-empfill-empfohlt-empfiehlen-empfiehlt to_recommend-советовать-aconsejar-recommander
+erschrecken(erschrickt)-erschrak-ist erschrocken-erschrok-erschrick-erschruk-erschricken-erschrecken-erschracken to_be startled-испугаться-asustar-prendre peur
+essen(isst)-aß hat_gegessen-ess-iß-ass-gegossen-gegießen-gegesst to_eat-есть-comer-manger
+fahren(fährt)-fuhr-ist/hat gefahren-fahr-fuhrte-fahrte-gefahrt-gefuhren-gefuhrt to_drive-ехать-conducir-aller 
+fallen(fällt)-fiel-ist gefallen-fall-fahl-foll-gefiehl-gefahl-gefahllen to_fall-падать-caer-tomber
+fangen(fängt)-fing hat_gefangen-fingte-fangte-fang-gefingen-gefangt-gefingt to_catch-ловить-coger-attraper
+fechten(ficht)-focht hat_gefochten-ficht-fucht-fechte-gefichten-gefocht-gefechten to_fence-фехтовать-practicar la esgrima-faire de l'escrime
+finden-fand hat_gefunden-fund-findete-fandete-gefundet-gefinden-gefindet to_find-находить-encontrar-trouver
+flechten(flicht)-flocht hat_geflochten-flucht-flicht-flecht-gefluchten-geflochtet-geflechten to_braid/plait-заплетать-trenzar-tresser
+fliegen-flog-ist/hat geflogen-fliegte-flug-flag-gefliegen-geflogt-gefliegt to_fly-летать-volar-aller 
+fliehen-floh-ist geflohen-flieh-flah-fluh-gefloht-gefliehen-geflieht to_flee-бежать-huir-s'enfuir
+fließen-floss-ist geflossen-fluss-fliess-fliesste-gefliessen-geflussen-geflussen to_flow-течь-fluir-couler 
+fressen(frisst)-fraß hat_gefressen-freß-frieß-froß-gefrissen-gefresst-gefrisst to_eat (of animals)-жрать-dar de comer-dévorer
+frieren-fror hat_gefroren-frier-frorte-frierte-gefrort-gefrieren-gefriert to_freeze-мёрзнуть-tener frío-avoir froid
+gebären(gebiert)-gebar hat_geboren-gebor-gebuhr-gebier-gebort-gebuhren-gebuhrt to_give birth-рожать-dar a luz-mettre au monde
+geben(gibt)-gab hat_gegeben-gib-gate-gibte-gegaben-gegabt-gegebt to_give-давать-dar-donner
+gedeihen-gedieh-ist gediehen-gediehte-gedah-gedahte-gedieht-gedieht-gedaht to_thrive-процветать-florecer-prospérer
+gehen-ging-ist gegangen-gang-gehte-gong-gegangt-gegeht-gegehen to_walk-идти-ir-aller
+gefallen(gefällt)-gefiel hat_gefallen-gefallte-gefall-gefielte-gefallt-gefielen-gegefiehlt to_be pleasing-нравиться-gustar-déchu
+gelingen-gelang-ist gelungen-gelung-gelangte-gelungte-gelungt-gelangen-gelangt to_succeed-удаваться-tener exito-réussir
+gelten(gilt)-galt hat_gegolten-golt-gilt-gielt-gegelten-gegolt-gegelt to_count/be worth-быть действительным-ser válido-valoir
+genießen-genoss hat_genossen-genuss-geniss-genass-genussen-genosst-genießt to_enjoy-наслаждаться-disfrutar-apprécier
+geschehen(geschieht)-geschah-ist geschehen-geschieh-gescheih-geschehte-gescheht-geschiehen-geschieht to_occur-происходить-suceder-se produire
+gewinnen-gewann hat_gewonnen-gewinn-gewonn-gewein-gewonnt-gewinnen-gewinnt to_win-побеждать-ganar-gagner
+gießen-goss hat_gegossen-gass-giss-gosste-gegosste-gegissen-gegiesen to_pour-наливать-regar-verser
+gleichen-glich hat_geglichen-gleich-glitt-glachte-geglicht-geglitten-gegleicht to_resemble-сравнивать-igualarse-ressembler
+gleiten-glitt-ist geglitten-glatt-gleit-glott-gegleiten-geglittet-gegleitet to_glide-скользить-resbalar-accompagner
+graben(gräbt)-grub hat_gegraben-grab-grieb-greib-gegruben-gegrabt-gegrieben to_dig-копать-cavar-creuser
+greifen-griff hat_gegriffen-greif-grof-grifte-gegrifft-gegreiffen-gegreifft to_seize-хватать-coger-saisir
+haben(hat)-hatte hat_gehabt-hieben-hat-heit-gehaben-gehiebt-gehattet to_have-иметь-tener/haber-avoir
+halten(hält)-hielt hat_gehalten-holt-halt-holte-geholten-gehaltet-geholtet to_hold-держать-mantener-tenir
+hängen-hing hat_gehangen-hang-hingte-hangte-gehangt-gehingen-gehingt to_be hanging-висеть-estar colgado-être suspendu
+heben-hob hat_gehoben-heb-hebte-hobte-gehobt-geheben-gehebt to_lift-поднимать-elevar-soulever
+heißen-hieß hat_geheißen-hiesste-heiß-heißte-gehießen-geheißt-gehießt to_be called-называться-llamarse-s'appeler
+helfen(hilft)-half hat_geholfen-holf-hilf-hilfte-gehilfen-geholft-gehilfen to_help-помогать-ayudar-aider
+kennen-kannte hat_gekannt-konnte-kann-kennte-gekonnt-gekönnen-gekennt to_know-знать-conocer-connaitre
+klingen-klang hat_geklungen-kling-klung-klingte-geklungt-geklingen-geklangen to_sound-звонить-sonar-retentir
+kommen-kam-ist gekommen-kamm-komm-kommte-gekommt-gekammen-gekammt to_come-приходить-venir-venir
+kriechen-kroch-ist gekrochen-krach-krochte-krichte-gekrachen-gekrocht-gekracht to_crawl-ползти-arrastrarse-ramper
+laden(lädt)-lud hat_geladen-lad-läd-lied-geluden-geloden-gelädet to_load-грузить-cargar-charger
+lassen(lässt)-ließ hat_gelassen-liß-lasste-lässte-geliessen-gelasst-geließt to_let-оставлять-dejar-laisser
+laufen(läuft)-lief-ist gelaufen-lauf-liefte-laufte-gelauft-gelieft-gelofen to_run-бежать-correr-courir
+leiden-litt hat_gelitten-lidt-leid-lidte-geleiden-gelidten-gelidt to_suffer-сожалеть-sufrir-soufftir
+leihen-lieh hat_geliehen-liehte-liente-leih-geleihen-gelieht-geliehtet to_lend-занимать-prestar-prêter
+lesen(liest)-las hat_gelesen-lies-leste-läs-geliest-gelosen-gelasen to_read-читать-leer-lire
+liegen-lag hat_gelegen-log-lagte-lieg-gelagt-gelogen-gelegt to_be lying-лежать-estar tumbado-être couché
+lügen-log hat_gelogen-lag-lügte-lüg-gelogt-gelügt-gelügen to_lie-врать-mentir-mentir
+mahlen-mahlte hat_gemahlen-mehlt-mahlt-mehlte-gemahlt-gemehlen-gemehlt to_grind-молоть-moler-moudre
+meiden-mied hat_gemieden-mitt-mid-med-gemeidet-gemitten-gemiedet to_avoid-избегать-evitar-éviter
+melken-molk hat_gemolken-milk-malk-melk-gemolkt-gemelkt-gemelken to_milk-доить-ordeñar-traire
+messen(misst)-maß hat_gemessen-miss-meiß-meißte-gemissen-gemiest-gemesst to_measure-измерять-medir-mesurer
+misslingen-misslang-ist misslungen-misslung-misslangte-misslungte-misslungt-misslangen-misslangt to_fail-неудаваться-fracasar-rater
+nehmen(nimmt)-nahm hat_genommen-nimm-namm-nomm-genohmen-genehmen-genammen to_take-брать-coger-prendre
+nennen-nannte hat_genannt-nann-nennte-ninn-genennen-genannen-genennt to_name/call-называть-nombrar-nommer
+pfeifen-pfiff hat_gepfiffen-pfiffte-pfeifte-pfuff-gepfifft-gepfeifen-gepfeift to_whistle-свистеть-silbar-siffler
+preisen-pries hat_gepriesen-priss-pras-pros-gepriest-geprissen-gepreisen to_praise-прославлять-alabar-faire l'éloge
+raten(rät)-riet hat_geraten-ritt-rat-rot-geratet-geritten-gerittet to_advise-советовать-aconsejar-conseiller
+reiben-rieb hat_gerieben-ribb-rab-rob-geriebt-geroben-gerobt to_rub-тереть-frotar-frotter
+reißen-riss-ist/hat gerissen-ross-rieß-reiß-gereißen-gerossen-geriesen to_rip/tear-рвать-arrancar-déchirer
+reiten-ritt-ist/hat geritten-reitete-rott-reit-retittet-gereiten-gereitet to_ride (a horse)-ездить верхом-cabalgar-chevaucher
+rennen-rannte-ist gerannt-rann-rennte-renn-gerannen-gerennen-gerennt to_run-бежать-correr-courir
+riechen-roch hat_gerochen-riech-rochte-rachte-gerocht-gerachen-geriecht to_smell-нюхать-oler-sentir
+ringen-rang hat_gerungen-rung-rieng-rangte-geringen-geringt-gerangt to_wrestle-бороться-luchar-lutter
+rinnen-rann-ist geronnen-rien-runn-rinnte-geronnt-gerinnt-gerinnen to_flow/trickle-струиться-manar-s'écouler
+rufen-rief hat_gerufen-rufte-raff-rof-geriffen-geriefen-gerieft to_call-звать-llamar-appeler
+salzen-salzte hat_gesalzen-soltz-solzte-salz-gesalzt-gesolzt-gesolzen to_salt-солить-salar-saler
+saugen-sog hat_gesogen-sag-sogte-sagte-gesogt-gesaugt-gesaugen to_suck-сосать-mamar-sucer
+schaffen-schuf hat_geschaffen-schiff-schiffte-schaff-geschafft-geschiffen-geschuffen to_create-создавать-crear-créer
+scheiden-schied-ist/hat geschieden-schitt-scheidete-schud-geschiedt-geschitten-gescheiden to_separate-расставаться-separar-séparer
+scheinen-schien hat_geschienen-schiente-schan-schonte-geschient-gescheinen-gescheint to_shine-казаться-brillar-sembler
+schieben-schob hat_geschoben-schab-schub-schiebte-geschobt-geschieben-geschiebt to_push-толкать-empujar-pousser
+schießen-schoss hat_geschossen-schass-schiess-schiss-geschissen-geschiessen-geschosst to_shoot-стрелять-disparar-tirer 
+schlafen(schläft)-schlief hat_geschlafen-schluf-schlaf-schlafte-geschlofen-geschlieft-geschlaft to_sleep-спать-dormir-dormir
+schlagen(schlägt)-schlug hat_geschlagen-schlag-schlieg-schlagte-geschlugen-geschlagt-geschliegen to_hit-бить-golpear-battre
+schleichen-schlich-ist geschlichen-schloch-schlach-schlachte-geschlicht-geschlochen-geschlocht to_creep/sneak-красться-avanzar a hurtadillas-se faufiler
+schleifen-schliff hat_geschliffen-schluff-schlaff-schlaffte-geschlifft-geschleifen-geschleift to_grind-шлифовать-afilar-polir
+schließen-schloss hat_geschlossen-schliss-schluss-schlosste-geschlosst-geschließt-geschließen to_close-закрывать-cerrar-verrouiller
+schlingen-schlang hat_geschlungen-schlung-schlangte-schlungte-geschlungt-geschlingen-geschlingt to_wind/wrap-обматывать-atar-enrouler
+schmeißen-schmiss hat_geschmissen-schmeiss-schmuss-schmieß-geschmeiss-geschmuss-geschmieß to_throw-кидать-tirar-lancer
+schmelzen(schmilzt)-schmolz-ist/hat geschmolzen-schmalz-schmolzte-schmilz-geschmolzt-geschmelzen-geschmelzt to_melt-таять-fundirse-fondre
+schneiden-schnitt hat_geschnitten-schneidete-schnod-schnutt-geschnittet-geschneiden-geschneidet to_cut-резать-cortar-couper
+schreiben-schrieb hat_geschrieben-schriebte-scheibte-schrob-geschriebt-geschreiben-geschreibt to_write-писать-escribir-écrire
+schreien-schrie hat_geschrien-schreite-schrah-schroh-geschriet-geschreien-geschreit to_scream-кричать-gritar-crier
+schreiten-schritt-ist geschritten-schrott-schratt-schreitete-geschrittet-geschreiten-geschreitet to_stride-ступать-caminar solemnemente-marcher
+schweigen-schwieg hat_geschwiegen-schwog-schwag-schweg-geschwiegt-geschweigen-geschweigt to_be silent-молчать-callar-se taire
+schwimmen-schwamm-ist geschwommen-schwomm-schwumm-schwimmte-geschwommt-geschwimmt-geschwimmen to_swim-плавать-nadar-nager
+schwingen-schwang-ist/hat geschwungen-schwung-schweng-schwingte-geschwingt-geschwungt-geschwingen to_swing-раскачивать-agitar-brandir
+schwören-schwor hat_geschworen-schwar-schwörte-schwer-geschwort-geschweren-geschwert to_swear-клясться-jurar-jurer
+sehen(sieht)-sah hat_gesehen-sieh-sehte-saht-gesieht-gesehte-gesahen to_see-видеть-ver-voir
+sein(ist)-war-ist gewesen-seid-seen-wär-gewaren-seid-geseid to_be-быть-ser-être
+senden-sandte hat_gesandt-send-sand-sind-gesenden-gesanden-gesindt to_send-посылать-enviar-envoyer
+singen-sang hat_gesungen-sung-singte-seng-gesungt-gesingen-gesingt to_sing-петь-cantar-chanter
+sinken-sank-ist gesunken-senk-sunk-sinkte-gesunkt-gesinken-gesinkt to_sink-понижаться-hundir-sombrer
+sitzen-saß hat_gesessen-setz-satz-seß-gesitzt-gesitzen-gesassen to_sit-сидеть-estar sentado-être assis
+spalten-spaltete hat_gespalten-spiel-spul-spulte-gespaltet-gespieltet-gespielten to_split-рассечь-hender-fendre
+spinnen-spann hat_gesponnen-sponn-spunn-spenn-gespannen-gespannt-gespennt to_spin-прясть-hilar-filer la laine
+sprechen(spricht)-sprach hat_gesprochen-sproch-sprechtete-spruch-gespracht-gesprechen-gesprachen to_speak-говорить-hablar-parler
+springen-sprang-ist gesprungen-sprung-spring-spreng-gespringt-gesprengen-gesprangen to_jump-прыгать-saltar-sauter
+steсhen(sticht)-stach hat_gestochen-stiech-stoch-stuch-gestocht-gestechen-gestecht to_prick/sting-колоть-picar-piquer
+stehen-stand hat_gestanden-stend-stande-stieht-gestunden-gesteht-gestaht to_stand-стоять-estar de pie-être 
+stehlen(stiehlt)-stahl hat_gestohlen-stehl-stiehl-stohl-gestehlen-gestiehlen-gestahlen to_steal-красть-robar-dérober
+steigen-stieg-ist gestiegen-stag-stug-stiegte-gestiegt-gesteigt-gesteigen to_climb-подниматься-escalar-monter
+sterben(stirbt)-starb-ist gestorben-sterb-sterbte-stirbte-gesterbt-gesterben-gestarben to_die-умирать-morir-mourir
+stinken-stank hat_gestunken-stunk-stink-stenk-gestunkt-gestanken-gestankt to_stink-вонять-apestar-puer
+stoßen(stößt)-stieß-ist/hat geschtoßen-staß-stiss-staßte-geschtoßt-gestissen-gestisst to_push-пихать-empujar-heurter
+streichen-strich hat_gestrichen-streichtet-strach-stroch-gestricht-gestrochen-gestracht to_stroke-гладить/красить-pintar-badigeonner
+streiten-stritt hat_gestritten-streit-stratt-strott-gestratten-gestrotten-gestreiten to_quarrel-спорить-pelearse-combattre
+tragen(trägt)-trug hat_getragen-trag-trog-trieg-getragt-getrugen-getrugt to_wear/carry-носить-llevar-porter
+treffen(trifft)-traf hat_getroffen-trief-troff-treff-getreffen-getriffen-getrefft to_meet-встретить-encontrarse-atteindre
+treiben-trieb-ist/hat getrieben-trab-trob-treibte-getriebt-getreiben-getreibt to_drive/drift-заниматься-practicar-pratiquer 
+treten(tritt)-trat hat_getreten-trot-triet-tret-getretet-getraten-getratet to_step-наступать-pisar-poser le pied
+trinken-trank hat_getrunken-trunk-tronk-trenk-getrunkt-getrinken-getrinkt to_drink-пить-beber-boire
+trügen-trog hat_getrogen-trag-tregte-trug-getragen-getrugen-getregen to_deceive-обманывать-engañar-tromper
+tun(tut)-tat hat_getan-tutte-tan-tien-getun-getat-getunen to_do-делать-hacer-faire
+verbieten-verbot hat_verboten-verbat-verbetet-verbut-verbotet-verbieten-verbietet to_forbid-запрещать-prohibir-interdire
+verderben(verdirbt)-verdarb-ist/hat verdorben-verderb-verdierb-verdorb-verdorbt-verdarbt-verderbt to_ruin-портить/гнить-estropearse-gâcher
+vergessen(vergisst)-vergaß hat_vergessen-vergieß-vergoss-vergesste-vergesst-vergossen-vergosst to_forget-забыть-olvidar-oublier
+verlassen(verlässt)-verließ hat_verlassen-verlass-verless-verloß-verlasst-verliessen-verliesst to_leave-оставлять-dejar-laisser
+verlieren-verlor hat_verloren-verlar-verlerte-verlierte-verlort-verlieren-verliert to_lose-потерять-perder-perdre
+verschweigen-verschwieg hat_verschwiegen-verschwog-verschwug-verschwag-verschwiegt-verschwogen-verschwogt to_conceal-скрывать-callar-cacher
+verschwinden-verschwand-ist verschwunden-verschwund-verschwond-verschwend-verschwundet-verschwinden-verschwindet to_disappear-исчезать-desaparecer-disparaître
+verzeihen-verzieh hat_verziehen-verzoht-verzaht-verzeih-verzieht-verzeihen-verzeiht to_excuse-извиняться-perdonar-pardonner
+wachsen(wächst)-wuchs-ist gewachsen-wachs-wachste-wuchste-gewuchst-gewachst-gewuchsen to_grow-расти-crecer-croître
+waschen(wäscht)-wusch hat_gewaschen-wasch-wiesch-wosch-gewascht-gewuschen-gewascht to_wash-мыть-lavar-laver
+weichen-wich-ist gewichen-woch-wach-wiech-gewicht-geweichen-geweicht to_yield/give way-смягчаться-ceder-céder
+weisen-wies hat_gewiesen-weiß-woss-was-geweisen-gewusen-gewosen to_point-указывать-señalar algo-indiquer
+wenden-wandte hat_gewandt-wend-wendte-wand-gewanden-gewenden-gewendet to_turn-поворачивать-girar-retourner
+werben(wirbt)-warb hat_geworben-wirb-worb-wierb-geworbt-gewirben-gewierbt to_advertise-рекламировать-publicitar-briguer
+werden(wird)-wurde-ist geworden-word-worde-wurd-gewurden-gewerden-worden to_become-становиться-llegar a ser-devenir
+werfen(wirft)-warf hat_geworfen-wierf-werfte-worf-geworft-gewerft-gewerfen to_throw-бросать-arrojar-jeter
+wiegen-wog hat_gewogen-wieg-wag-wug-gewogt-geweigt-gewiegt to_weigh-взвешивать-pesar-peser
+winden-wand hat_gewunden-wund-wiend-wond-gewundt-gewindt-gewinden to_wind-мотать-torcer-enrouler
+wissen(weiß)-wusste hat_gewusst-weißte-wisste-wosste-gewussen-gewissen-gewisst to_know-знать-saber-savoir
+ziehen-zog hat_gezogen-zieg-zag-zug-gezogt-gezieht-geziehen to_pull-тянуть-tirar/arrastrar-tirer
+zwingen-zwang hat_gezwungen-zwung-zweng-zwing-gezwungt-gezwingt-gezwingen to_force-заставлять-obligar-contraindre

@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useRef } from "react";
 import { useState } from "react";
 import { json, Link } from "react-router-dom";
-import catUrl from "../assets/cat.gif";
+import catUrl from "../assets/gifs/cat.gif";
 import { practiseItemsArr } from "../assets/constants";
 import * as Icon from "react-bootstrap-icons";
 

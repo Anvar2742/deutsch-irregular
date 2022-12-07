@@ -15,6 +15,9 @@ module.exports = {
             boxShadow: {
                 card: "-1px 0px 8px 2px rgba(0,0,0,0.2)",
             },
+            fontFamily: {
+                sans: ["Lato", "sans-serif"],
+            },
         },
     },
     plugins: [],

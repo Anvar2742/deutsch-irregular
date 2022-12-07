@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    @apply box-border outline-none;
+    @apply box-border outline-none focus-within:outline-none;
     -webkit-tap-highlight-color: transparent;
 }
 

@@ -58,7 +58,7 @@ function App() {
                         <Icon.Book />
                         <span className="text-base">Verbs</span>
                     </NavLink>
-                    <NavLink to="/settings" className="flex items-center justify-center flex-col pointer-events-none opacity-80">
+                    <NavLink to="/settings" className="flex items-center justify-center flex-col pointer-events-none opacity-60">
                         <Icon.Gear />
                         <span className="text-base">Soon</span>
                     </NavLink>

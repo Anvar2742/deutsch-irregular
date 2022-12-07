@@ -1,5 +1,4 @@
-[
-    {
+[{
         "perfekt": [
             "gebacken",
             "backen",
@@ -20,7 +19,8 @@
         "infinitive": "backen",
         "praet": "backte",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -43,7 +43,8 @@
         "infinitive": "befehlen",
         "praet": "befahl",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -66,7 +67,8 @@
         "infinitive": "beginnen",
         "praet": "begann",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -89,7 +91,8 @@
         "infinitive": "beißen",
         "praet": "biss",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -112,7 +115,8 @@
         "infinitive": "bekommen",
         "praet": "bekam",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -135,7 +139,8 @@
         "infinitive": "bergen",
         "praet": "barg",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -158,7 +163,8 @@
         "infinitive": "betrügen",
         "praet": "betrog",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -181,7 +187,8 @@
         "infinitive": "bewegen",
         "praet": "bewog",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -204,7 +211,8 @@
         "infinitive": "beweisen",
         "praet": "bewies",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -227,7 +235,8 @@
         "infinitive": "biegen",
         "praet": "bog",
         "ist_hat": "ist/hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -250,7 +259,8 @@
         "infinitive": "bieten",
         "praet": "bot",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -273,7 +283,8 @@
         "infinitive": "binden",
         "praet": "band",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -296,7 +307,8 @@
         "infinitive": "bitten",
         "praet": "bat",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -319,7 +331,8 @@
         "infinitive": "blasen",
         "praet": "blies",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -342,7 +355,8 @@
         "infinitive": "bleiben",
         "praet": "blieb",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -365,7 +379,8 @@
         "infinitive": "braten",
         "praet": "briet",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -388,7 +403,8 @@
         "infinitive": "brechen",
         "praet": "brach",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -411,7 +427,8 @@
         "infinitive": "brennen",
         "praet": "brannte",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -434,7 +451,8 @@
         "infinitive": "bringen",
         "praet": "brachte",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -457,7 +475,8 @@
         "infinitive": "denken",
         "praet": "dachte",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -480,7 +499,8 @@
         "infinitive": "dringen",
         "praet": "drang",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -503,7 +523,8 @@
         "infinitive": "empfehlen",
         "praet": "empfahl",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -526,7 +547,8 @@
         "infinitive": "erschrecken",
         "praet": "erschrak",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -549,7 +571,8 @@
         "infinitive": "essen",
         "praet": "aß",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -572,7 +595,8 @@
         "infinitive": "fahren",
         "praet": "fuhr",
         "ist_hat": "ist/hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -595,7 +619,8 @@
         "infinitive": "fallen",
         "praet": "fiel",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -618,7 +643,8 @@
         "infinitive": "fangen",
         "praet": "fing",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -641,7 +667,8 @@
         "infinitive": "fechten",
         "praet": "focht",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -664,7 +691,8 @@
         "infinitive": "finden",
         "praet": "fand",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -687,7 +715,8 @@
         "infinitive": "flechten",
         "praet": "flocht",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -710,7 +739,8 @@
         "infinitive": "fliegen",
         "praet": "flog",
         "ist_hat": "ist/hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -733,7 +763,8 @@
         "infinitive": "fliehen",
         "praet": "floh",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -756,7 +787,8 @@
         "infinitive": "fließen",
         "praet": "floss",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -779,7 +811,8 @@
         "infinitive": "fressen",
         "praet": "fraß",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -802,7 +835,8 @@
         "infinitive": "frieren",
         "praet": "fror",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -825,7 +859,8 @@
         "infinitive": "gebären",
         "praet": "gebar",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -848,7 +883,8 @@
         "infinitive": "geben",
         "praet": "gab",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -871,7 +907,8 @@
         "infinitive": "gedeihen",
         "praet": "gedieh",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -894,7 +931,8 @@
         "infinitive": "gehen",
         "praet": "ging",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -917,7 +955,8 @@
         "infinitive": "gefallen",
         "praet": "gefiel",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -940,7 +979,8 @@
         "infinitive": "gelingen",
         "praet": "gelang",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -963,7 +1003,8 @@
         "infinitive": "gelten",
         "praet": "galt",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -986,7 +1027,8 @@
         "infinitive": "genießen",
         "praet": "genoss",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1009,7 +1051,8 @@
         "infinitive": "geschehen",
         "praet": "geschah",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1032,7 +1075,8 @@
         "infinitive": "gewinnen",
         "praet": "gewann",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1055,7 +1099,8 @@
         "infinitive": "gießen",
         "praet": "goss",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1078,7 +1123,8 @@
         "infinitive": "gleichen",
         "praet": "glich",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1101,7 +1147,8 @@
         "infinitive": "gleiten",
         "praet": "glitt",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1124,7 +1171,8 @@
         "infinitive": "graben",
         "praet": "grub",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1147,7 +1195,8 @@
         "infinitive": "greifen",
         "praet": "griff",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1170,7 +1219,8 @@
         "infinitive": "haben",
         "praet": "hatte",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1193,7 +1243,8 @@
         "infinitive": "halten",
         "praet": "hielt",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1216,7 +1267,8 @@
         "infinitive": "hängen",
         "praet": "hing",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1239,7 +1291,8 @@
         "infinitive": "heben",
         "praet": "hob",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1262,7 +1315,8 @@
         "infinitive": "heißen",
         "praet": "hieß",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1285,7 +1339,8 @@
         "infinitive": "helfen",
         "praet": "half",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1308,7 +1363,8 @@
         "infinitive": "kennen",
         "praet": "kannte",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1331,7 +1387,8 @@
         "infinitive": "klingen",
         "praet": "klang",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1354,7 +1411,8 @@
         "infinitive": "kommen",
         "praet": "kam",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1377,7 +1435,8 @@
         "infinitive": "kriechen",
         "praet": "kroch",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1400,7 +1459,8 @@
         "infinitive": "laden",
         "praet": "lud",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1423,7 +1483,8 @@
         "infinitive": "lassen",
         "praet": "ließ",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1446,7 +1507,8 @@
         "infinitive": "laufen",
         "praet": "lief",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1469,7 +1531,8 @@
         "infinitive": "leiden",
         "praet": "litt",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1492,7 +1555,8 @@
         "infinitive": "leihen",
         "praet": "lieh",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1515,7 +1579,8 @@
         "infinitive": "lesen",
         "praet": "las",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1538,7 +1603,8 @@
         "infinitive": "liegen",
         "praet": "lag",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1561,7 +1627,8 @@
         "infinitive": "lügen",
         "praet": "log",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1584,7 +1651,8 @@
         "infinitive": "mahlen",
         "praet": "mahlte",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1607,7 +1675,8 @@
         "infinitive": "meiden",
         "praet": "mied",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1630,7 +1699,8 @@
         "infinitive": "melken",
         "praet": "molk",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1653,7 +1723,8 @@
         "infinitive": "messen",
         "praet": "maß",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1676,7 +1747,8 @@
         "infinitive": "misslingen",
         "praet": "misslang",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1699,7 +1771,8 @@
         "infinitive": "nehmen",
         "praet": "nahm",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1722,7 +1795,8 @@
         "infinitive": "nennen",
         "praet": "nannte",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1745,7 +1819,8 @@
         "infinitive": "pfeifen",
         "praet": "pfiff",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1768,7 +1843,8 @@
         "infinitive": "preisen",
         "praet": "pries",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1791,7 +1867,8 @@
         "infinitive": "raten",
         "praet": "riet",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1814,7 +1891,8 @@
         "infinitive": "reiben",
         "praet": "rieb",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1837,7 +1915,8 @@
         "infinitive": "reißen",
         "praet": "riss",
         "ist_hat": "ist/hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1860,7 +1939,8 @@
         "infinitive": "reiten",
         "praet": "ritt",
         "ist_hat": "ist/hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1883,7 +1963,8 @@
         "infinitive": "rennen",
         "praet": "rannte",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1906,7 +1987,8 @@
         "infinitive": "riechen",
         "praet": "roch",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1929,7 +2011,8 @@
         "infinitive": "ringen",
         "praet": "rang",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1952,7 +2035,8 @@
         "infinitive": "rinnen",
         "praet": "rann",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1975,7 +2059,8 @@
         "infinitive": "rufen",
         "praet": "rief",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -1998,7 +2083,8 @@
         "infinitive": "salzen",
         "praet": "salzte",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2021,7 +2107,8 @@
         "infinitive": "saugen",
         "praet": "sog",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2044,7 +2131,8 @@
         "infinitive": "schaffen",
         "praet": "schuf",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2067,7 +2155,8 @@
         "infinitive": "scheiden",
         "praet": "schied",
         "ist_hat": "ist/hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2090,7 +2179,8 @@
         "infinitive": "scheinen",
         "praet": "schien",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2113,7 +2203,8 @@
         "infinitive": "schieben",
         "praet": "schob",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2136,7 +2227,8 @@
         "infinitive": "schießen",
         "praet": "schoss",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2159,7 +2251,8 @@
         "infinitive": "schlafen",
         "praet": "schlief",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2182,7 +2275,8 @@
         "infinitive": "schlagen",
         "praet": "schlug",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2205,7 +2299,8 @@
         "infinitive": "schleichen",
         "praet": "schlich",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2228,7 +2323,8 @@
         "infinitive": "schleifen",
         "praet": "schliff",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2251,7 +2347,8 @@
         "infinitive": "schließen",
         "praet": "schloss",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2274,7 +2371,8 @@
         "infinitive": "schlingen",
         "praet": "schlang",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2297,7 +2395,8 @@
         "infinitive": "schmeißen",
         "praet": "schmiss",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2320,7 +2419,8 @@
         "infinitive": "schmelzen",
         "praet": "schmolz",
         "ist_hat": "ist/hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2343,7 +2443,8 @@
         "infinitive": "schneiden",
         "praet": "schnitt",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2366,7 +2467,8 @@
         "infinitive": "schreiben",
         "praet": "schrieb",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2389,7 +2491,8 @@
         "infinitive": "schreien",
         "praet": "schrie",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2412,7 +2515,8 @@
         "infinitive": "schreiten",
         "praet": "schritt",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2435,7 +2539,8 @@
         "infinitive": "schweigen",
         "praet": "schwieg",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2458,7 +2563,8 @@
         "infinitive": "schwimmen",
         "praet": "schwamm",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2481,7 +2587,8 @@
         "infinitive": "schwingen",
         "praet": "schwang",
         "ist_hat": "ist/hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2504,7 +2611,8 @@
         "infinitive": "schwören",
         "praet": "schwor",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2527,7 +2635,8 @@
         "infinitive": "sehen",
         "praet": "sah",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2550,7 +2659,8 @@
         "infinitive": "sein",
         "praet": "war",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2573,7 +2683,8 @@
         "infinitive": "senden",
         "praet": "sandte",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2596,7 +2707,8 @@
         "infinitive": "singen",
         "praet": "sang",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2619,7 +2731,8 @@
         "infinitive": "sinken",
         "praet": "sank",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2642,7 +2755,8 @@
         "infinitive": "sitzen",
         "praet": "saß",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2665,7 +2779,8 @@
         "infinitive": "spalten",
         "praet": "spaltete",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2688,7 +2803,8 @@
         "infinitive": "spinnen",
         "praet": "spann",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2711,7 +2827,8 @@
         "infinitive": "sprechen",
         "praet": "sprach",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2734,7 +2851,8 @@
         "infinitive": "springen",
         "praet": "sprang",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2757,7 +2875,8 @@
         "infinitive": "steсhen",
         "praet": "stach",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2780,7 +2899,8 @@
         "infinitive": "stehen",
         "praet": "stand",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2803,7 +2923,8 @@
         "infinitive": "stehlen",
         "praet": "stahl",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2826,7 +2947,8 @@
         "infinitive": "steigen",
         "praet": "stieg",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2849,7 +2971,8 @@
         "infinitive": "sterben",
         "praet": "starb",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2872,7 +2995,8 @@
         "infinitive": "stinken",
         "praet": "stank",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2895,7 +3019,8 @@
         "infinitive": "stoßen",
         "praet": "stieß",
         "ist_hat": "ist/hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2918,7 +3043,8 @@
         "infinitive": "streichen",
         "praet": "strich",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2941,7 +3067,8 @@
         "infinitive": "streiten",
         "praet": "stritt",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2964,7 +3091,8 @@
         "infinitive": "tragen",
         "praet": "trug",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -2987,7 +3115,8 @@
         "infinitive": "treffen",
         "praet": "traf",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3010,7 +3139,8 @@
         "infinitive": "treiben",
         "praet": "trieb",
         "ist_hat": "ist/hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3033,7 +3163,8 @@
         "infinitive": "treten",
         "praet": "trat",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3056,7 +3187,8 @@
         "infinitive": "trinken",
         "praet": "trank",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3079,7 +3211,8 @@
         "infinitive": "trügen",
         "praet": "trog",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3102,7 +3235,8 @@
         "infinitive": "tun",
         "praet": "tat",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3125,7 +3259,8 @@
         "infinitive": "verbieten",
         "praet": "verbot",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3148,7 +3283,8 @@
         "infinitive": "verderben",
         "praet": "verdarb",
         "ist_hat": "ist/hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3171,7 +3307,8 @@
         "infinitive": "vergessen",
         "praet": "vergaß",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3194,7 +3331,8 @@
         "infinitive": "verlassen",
         "praet": "verließ",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3217,7 +3355,8 @@
         "infinitive": "verlieren",
         "praet": "verlor",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3240,7 +3379,8 @@
         "infinitive": "verschweigen",
         "praet": "verschwieg",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3263,7 +3403,8 @@
         "infinitive": "verschwinden",
         "praet": "verschwand",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3286,7 +3427,8 @@
         "infinitive": "verzeihen",
         "praet": "verzieh",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3309,7 +3451,8 @@
         "infinitive": "wachsen",
         "praet": "wuchs",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3332,7 +3475,8 @@
         "infinitive": "waschen",
         "praet": "wusch",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3355,7 +3499,8 @@
         "infinitive": "weichen",
         "praet": "wich",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3378,7 +3523,8 @@
         "infinitive": "weisen",
         "praet": "wies",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3401,7 +3547,8 @@
         "infinitive": "wenden",
         "praet": "wandte",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3424,7 +3571,8 @@
         "infinitive": "werben",
         "praet": "warb",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3447,7 +3595,8 @@
         "infinitive": "werden",
         "praet": "wurde",
         "ist_hat": "ist",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3470,7 +3619,8 @@
         "infinitive": "werfen",
         "praet": "warf",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3493,7 +3643,8 @@
         "infinitive": "wiegen",
         "praet": "wog",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3516,7 +3667,8 @@
         "infinitive": "winden",
         "praet": "wand",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3539,7 +3691,8 @@
         "infinitive": "wissen",
         "praet": "wusste",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3562,7 +3715,8 @@
         "infinitive": "ziehen",
         "praet": "zog",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     },
     {
         "perfekt": [
@@ -3585,6 +3739,7 @@
         "infinitive": "zwingen",
         "praet": "zwang",
         "ist_hat": "hat",
-        "isChosen": false
+        "isChosen": false,
+        "isOnSearch": true
     }
 ]

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-    @apply box-border;
+    @apply box-border outline-none;
 }
 
 /* width */

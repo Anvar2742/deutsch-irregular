@@ -58,7 +58,7 @@ const Home = () => {
                                 className="absolute right-3 bottom-3 flex items-center justify-center text-xl text-white bg-primary rounded-full h-9 w-[calc(37px)]"
                             >
                                 {item.mode === -1 ? (
-                                    <Icon.Infinity />
+                                    <Icon.Infinity className="mt-1" />
                                 ) : (
                                     item.mode
                                 )}

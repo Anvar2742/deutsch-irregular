@@ -6,6 +6,7 @@ module.exports = {
             gridTemplateRows: {
                 main: "10% 80% 10%",
                 cards: "50% 50%",
+                verbs: "10% 90%",
             },
             colors: {
                 primary: "#0077b6",

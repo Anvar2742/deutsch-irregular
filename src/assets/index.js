@@ -13,7 +13,7 @@ export const getVerbs = (verbs, num, isChosenFilter = true, currentVerb) => {
         ? verbs.filter((item) => item.isChosen)
         : verbs.filter((item) => !item.isChosen);
     if (currentVerb) {
-        chosenVerbs = verbs.filter((item) => item.isChosen && item.id !== currentVerb.id);
+        chosenVerbs = verbs.filter((item) => item.id !== currentVerb.id);
     }
 
     if (chosenVerbs.length === 0) {

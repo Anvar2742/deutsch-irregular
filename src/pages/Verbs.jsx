@@ -96,7 +96,7 @@ const Verbs = () => {
     }, [irregularList]);
 
     return (
-        <div className="h-full  grid-rows-verbs grid-cols-1">
+        <div className="h-full pb-20">
             <div className="p-4 border-2 border-b-primary flex">
                 <label className="border border-slate-500 p-2 rounded-xl px-3 mr-4">
                     <input

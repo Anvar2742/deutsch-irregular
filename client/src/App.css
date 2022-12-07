@@ -4,6 +4,7 @@
 
 * {
     @apply box-border outline-none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 /* width */

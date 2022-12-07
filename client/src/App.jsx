@@ -49,8 +49,8 @@ const NavBar = () => {
 
 function App() {
     return (
-        <div className="bg-gray-50 h-[100vh] overflow-hidden">
-            <div className="max-w-md mx-auto h-full grid grid-rows-main grid-cols-1">
+        <div className="bg-gray-50 h-full overflow-hidden">
+            <div className="max-w-md mx-auto h-full pb-36">
                 <NavBar />
                 <div className="bg-white h-full">
                     <Routes>
@@ -60,7 +60,7 @@ function App() {
                         <Route path="/settings" element={<Settings />} />
                     </Routes>
                 </div>
-                <div className="bg-gray-900 text-2xl p-4 text-white flex items-center justify-around nav">
+                <div className="nav bg-gray-900 text-2xl p-4 text-white flex items-center justify-around fixed bottom-0 left-auto max-w-md w-full h-20">
                     <NavLink to="/" className="flex items-center justify-center flex-col">
                         <Icon.Fire />
                         <span className="text-base">Practice</span>
@@ -71,7 +71,7 @@ function App() {
                     </NavLink>
                     <NavLink to="/settings" className="flex items-center justify-center flex-col">
                         <Icon.Gear />
-                        <span className="text-base">Soon</span>
+                        <span className="text-base">Settings</span>
                     </NavLink>
                 </div>
             </div>

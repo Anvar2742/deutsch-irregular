@@ -96,7 +96,7 @@ const Verbs = () => {
     }, [irregularList]);
 
     return (
-        <div className="h-full grid grid-rows-verbs grid-cols-1">
+        <div className="h-full  grid-rows-verbs grid-cols-1">
             <div className="p-4 border-2 border-b-primary">
                 <label className="border border-slate-500 p-2 rounded-xl px-3 mr-4">
                     <input
@@ -121,7 +121,7 @@ const Verbs = () => {
                             return (
                                 <label
                                     key={verb.id}
-                                    className="flex items-center p-4 hover:bg-slate-600 active:bg-slate-600 active:text-white hover:text-white capitalize"
+                                    className="flex items-center p-4 active:bg-slate-600 active:text-white capitalize"
                                 >
                                     <input
                                         type="checkbox"
@@ -137,7 +137,7 @@ const Verbs = () => {
                         return (
                             <label
                                 key={verb.id}
-                                className="flex items-center p-4 hover:bg-slate-600 active:bg-slate-600 active:text-white hover:text-white capitalize"
+                                className="flex items-center p-4 active:bg-slate-600 active:text-white capitalize"
                             >
                                 <input
                                     type="checkbox"

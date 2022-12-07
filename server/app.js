@@ -5,7 +5,7 @@ const axios = require("axios");
 const cors = require("cors");
 app.use(cors());
 app.use(express.json());
-
+ 
 const getTranslation = async (verb) => {
     const options = {
         method: "POST",

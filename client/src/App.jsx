@@ -4,6 +4,7 @@ import { Link, NavLink, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Verbs from "./pages/Verbs";
 import * as Icon from "react-bootstrap-icons";
+import Settings from "./pages/Settings";
 
 /* TO-DO */
 /**
@@ -32,6 +33,15 @@ const NavBar = () => {
                         </div>
                     }
                 />
+                <Route
+                    path="/settings"
+                    element={
+                        <div className="flex items-center">
+                            <Icon.ArrowLeft className="mr-2" />
+                            Settings
+                        </div>
+                    }
+                />
             </Routes>
         </Link>
     );
@@ -47,6 +57,7 @@ function App() {
                         <Route path="/" element={<Home />} />
                         <Route path="/cards" element={<Cards />} />
                         <Route path="/verbs" element={<Verbs />} />
+                        <Route path="/settings" element={<Settings />} />
                     </Routes>
                 </div>
                 <div className="bg-gray-900 text-2xl p-4 text-white flex items-center justify-around nav">
@@ -58,7 +69,7 @@ function App() {
                         <Icon.Book />
                         <span className="text-base">Verbs</span>
                     </NavLink>
-                    <NavLink to="/settings" className="flex items-center justify-center flex-col pointer-events-none opacity-60">
+                    <NavLink to="/settings" className="flex items-center justify-center flex-col">
                         <Icon.Gear />
                         <span className="text-base">Soon</span>
                     </NavLink>
